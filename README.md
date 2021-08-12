@@ -1,5 +1,5 @@
 # kasalasak
-A website
+Site
 
 ## Project setup
 ```
