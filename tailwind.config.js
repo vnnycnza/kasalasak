@@ -1,6 +1,11 @@
 const { colors } = require("tailwindcss/defaultTheme");
 
 module.exports = {
+  purge: {
+    enabled: true,
+    layers: ["base", "components", "utilities"],
+    content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
+  },
   theme: {
     fontFamily: {
       display: ["Bodoni Moda", "Georgia", "serif"],
