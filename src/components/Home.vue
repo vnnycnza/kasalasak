@@ -1,5 +1,5 @@
 <template>
-  <div v-bind:class="{ hidden: showMenu }" id="home" class="container mx-auto">
+  <div v-bind:class="{ hidden: showMenu }" id="home" class="container mx-auto my-auto item-center justify-center">
     <Timer />
   </div>
 </template>

@@ -14,16 +14,16 @@
     >
       <ul class="font-body text-xl text-gray-200 px-6 items-center">
         <li>
-          <a href="" class="block py-2 hover:text-gray-500">home</a>
+          <a href="" class="block py-2 hover:text-theme-300">home</a>
         </li>
         <li>
-          <a href="#" class="block py-2 over:text-gray-500">event</a>
+          <a href="#" class="block py-2 hover:text-theme-300">event</a>
         </li>
         <li>
-          <a href="#" class="block py-2 hover:text-gray-500">faqs</a>
+          <a href="#" class="block py-2 hover:text-theme-300">faqs</a>
         </li>
         <li>
-          <a href="#" class="block py-2 hover:text-gray-500">our story</a>
+          <a href="#" class="block py-2 hover:text-theme-300">our story</a>
         </li>
       </ul>
     </div>

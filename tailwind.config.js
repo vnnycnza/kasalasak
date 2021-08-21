@@ -8,15 +8,6 @@ module.exports = {
       caveat: ["Caveat", "Bodoni Moda", "system-ui", "serif"],
       serif: ["Playfair Display", "Georgia", "system-ui", "serif"],
     },
-    // colors: {
-    //     // Build your palette here
-    //     transparent: 'transparent',
-    //     current: 'currentColor',
-    //     gray: colors.trueGray,
-    //     red: colors.red,
-    //     blue: colors.blue,
-    //     yellow: colors.amber,
-    // }
     // https://v1.tailwindcss.com/docs/customizing-colors#app
     colors: {
       ...colors,
