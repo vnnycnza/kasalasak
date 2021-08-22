@@ -304,6 +304,9 @@ export default {
         // calculate weeks
         const weeks = Math.floor(days / 7);
 
+        // calculate remaining days (excluding the weeks)
+        const remainingDays = days % 7;
+
         // calculate (and subtract) whole hours
         const hours = Math.floor(distance / 3600) % 24;
         distance -= hours * 3600;
@@ -318,7 +321,7 @@ export default {
         // Calculate Progress
         this.progress.months = this.calculateProgress(months, 12);
         this.progress.weeks = this.calculateProgress(weeks, 7 * months);
-        this.progress.days = this.calculateProgress(days, 365);
+        this.progress.days = this.calculateProgress(remainingDays, 7);
         this.progress.hours = this.calculateProgress(hours, 24);
         this.progress.minutes = this.calculateProgress(minutes, 60);
         this.progress.seconds = this.calculateProgress(seconds, 60);
@@ -326,7 +329,7 @@ export default {
         // Set Times
         this.months = months.toString();
         this.weeks = weeks.toString();
-        this.days = days.toString();
+        this.days = remainingDays.toString();
         this.hours = hours.toString();
         this.minutes = minutes.toString();
         this.seconds = seconds.toString();
