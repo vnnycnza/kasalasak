@@ -14,16 +14,36 @@
     >
       <ul class="font-body text-xl text-gray-200 px-6 items-center">
         <li>
-          <a href="" class="block py-2 hover:text-theme-300">home</a>
+          <router-link
+            to="/"
+            @click.native="toggleNavbar()"
+            class="block py-2 hover:text-theme-300"
+            >home</router-link
+          >
         </li>
         <li>
-          <a href="#" class="block py-2 hover:text-theme-300">event</a>
+          <router-link
+            to="/event"
+            @click.native="toggleNavbar()"
+            class="block py-2 hover:text-theme-300"
+            >event</router-link
+          >
         </li>
         <li>
-          <a href="#" class="block py-2 hover:text-theme-300">faqs</a>
+          <router-link
+            to="/rsvp"
+            @click.native="toggleNavbar()"
+            class="block py-2 hover:text-theme-300"
+            >rsvp</router-link
+          >
         </li>
         <li>
-          <a href="#" class="block py-2 hover:text-theme-300">our story</a>
+          <router-link
+            to="/story"
+            @click.native="toggleNavbar()"
+            class="block py-2 hover:text-theme-300"
+            >our story</router-link
+          >
         </li>
       </ul>
     </div>
@@ -39,6 +59,11 @@ export default {
     ...mapGetters({
       showMenu: "getShowMenu",
     }),
+  },
+  methods: {
+    toggleNavbar: function () {
+      this.$store.commit("SET_SHOW_MENU", false);
+    },
   },
 };
 </script>

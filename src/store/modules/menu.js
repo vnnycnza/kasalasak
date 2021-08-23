@@ -8,7 +8,6 @@ const getters = {
 
 const mutations = {
   SET_SHOW_MENU(state, payload) {
-    console.log("was this called", payload);
     state.showMenu = payload;
   },
 };

@@ -1,15 +1,13 @@
 <template>
+  <div class="footer">
   <div
-    v-bind:class="{ hidden: showMenu, flex: !showMenu }"
+    v-bind:class="{ hidden: showMenu }"
     class="
-      relative
-      md:absolute
-      w-full
-      bottom-0
       bg-gradient-to-r
       from-theme-50
       font-body
       text-gray-700
+      mt-2
     "
   >
     <div class="container mx-auto px-4 py-3 space-y-1 text-center">
@@ -101,6 +99,7 @@
       </div>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
@@ -115,3 +114,12 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:144px;
+}
+</style>

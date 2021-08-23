@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
+  <div id="app" class="relative min-h-full">
     <div id="header">
       <Navbar />
     </div>
     <div id="body">
       <MobileMenu />
-      <Home class="text-center" />
+      <router-view />
     </div>
     <Footer />
   </div>
@@ -14,13 +14,11 @@
 <script>
 import Navbar from "./components/Navbar.vue";
 import MobileMenu from "./components/MobileMenu.vue";
-import Home from "./components/Home.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    Home,
     Navbar,
     MobileMenu,
     Footer,

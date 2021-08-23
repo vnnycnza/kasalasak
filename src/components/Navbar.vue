@@ -59,10 +59,18 @@
               mt-3
             "
           >
-            <a href="" class="py-4 px-2 hover:text-white">home</a>
-            <a href="#" class="py-4 px-2 hover:text-white">event</a>
-            <a href="#" class="py-4 px-2 hover:text-white">faqs</a>
-            <a href="#" class="py-4 px-2 hover:text-white">our story</a>
+            <router-link to="/" class="py-4 px-2 hover:text-white"
+              >home</router-link
+            >
+            <router-link to="/event" class="py-4 px-2 hover:text-white"
+              >event</router-link
+            >
+            <router-link to="/rsvp" class="py-4 px-2 hover:text-white"
+              >rsvp</router-link
+            >
+            <router-link to="/story" class="py-4 px-2 hover:text-white"
+              >our story</router-link
+            >
           </div>
           <!-- Mobile menu button -->
           <div class="md:hidden flex items-center">

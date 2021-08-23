@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 mt-8 mb-6 xl:mt-12">
+  <div class="mx-4 mt-8 mb-6 xl:mt-12 text-center">
     <div class="flex item-center justify-center py-4">
       <svg
         id="Layer_1"
@@ -304,7 +304,7 @@ export default {
         // calculate weeks
         const weeks = Math.floor(days / 7);
 
-        // calculate remaining days (excluding the weeks)
+        // calculate remaining days (excluding the days)
         const remainingDays = days % 7;
 
         // calculate (and subtract) whole hours
