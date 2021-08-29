@@ -5,7 +5,8 @@
     id="event"
     class="container mx-auto my-auto item-center justify-center"
   >
-    <div class="mx-4 mt-8 mb-6 xl:mt-12 text-center">
+    <div class="mx-4 mt-8 mb-6 xl:mt-12">
+      <!-- Icon -->
       <div class="flex item-center justify-center py-4">
         <svg
           id="Layer_1"
@@ -51,34 +52,85 @@
           </g>
         </svg>
       </div>
-      <span class="text-3xl md:text-4xl text-gray-700 font-caveat py-4">
-        Event Details
-      </span>
+      <!-- Event Details -->
+      <div class="flex item-center justify-center">
+        <span class="text-3xl md:text-4xl text-gray-700 font-caveat">
+          Event Details
+        </span>
+      </div>
+      <!-- HR -->
+      <hr class="border-gray text-center text-2xl mt-2"
+        style="--bg:white; --p:0 10px; --trans-x:-50%; --trans-y:-50%;"/> 
+      <!-- Event Date -->
+      <div class="flex item-center justify-center py-4">
+        <span class="text-xl md:text-3xl text-gray-700 font-body">
+          Wedding Date | 01. 16. 2022
+        </span>
+      </div>
 
-      <div class="bg-gray-50 min-h-screen flex items-center justify-center px-16">
-        <div class="relative w-full max-w-lg">
-          <div class="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob "></div>
-          <div class="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-          <div class="absolute -bottom-32 left-20 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-          <div class="m-8 relative space-y-4">
-            <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
-              <div class="flex-1 flex justify-between items-center">
-                <div class="h-4 w-48 bg-gray-300 rounded"></div>
-                <div class="w-24 h-6 rounded-lg bg-purple-300"></div>
+      <!-- Venue -->
+      <div class="flex flex-wrap -mx-2 overflow-hidden pb-6">
+        <div class="my-2 px-2 w-full overflow-hidden sm:w-1/2 md:w-full lg:w-1/2 xl:w-1/2">
+          <div class="flex-row bg-blue-100 rounded-md p-4 w-full h-full mx-auto space-y-4 ">
+            <!-- Venue Details -->
+            <div class="flex space-x-4 py-2">
+              <div class="w-12">
+                <svg id="Layer_1" enable-background="new 0 0 512.041 512.041" height="50" viewBox="0 0 512.041 512.041" width="50" xmlns="http://www.w3.org/2000/svg"><g><path d="m496.02 512.025c-1.292 0-2.594-.157-3.88-.478l-123.844-30.961-107.88 30.823c-2.873.821-5.918.821-8.791 0l-107.88-30.823-123.844 30.961c-5.63 1.408-11.585-.345-15.554-4.581-3.97-4.236-5.334-10.289-3.565-15.818l64-200c1.688-5.275 5.985-9.303 11.359-10.646l86.86-21.71c1.269-.317 2.572-.478 3.88-.478h178.28c1.308 0 2.611.16 3.88.478l86.86 21.71c5.374 1.343 9.671 5.371 11.359 10.646l64 200c1.77 5.529.405 11.583-3.565 15.818-3.064 3.268-7.309 5.059-11.675 5.059z" fill="#acebe2"/><g fill="#98d7ce"><path d="m272.021 376.024v132.07c-18.576 5.291-13.623 5.234-32 0v-132.07c0-8.84 7.16-16 16-16s16 7.16 16 16z"/><path d="m194.521 258.314c-6.73 40.35-35.85 215.19-37.66 226.02l-13.12-3.75-19.52 4.88c28.96-173.77 35.47-212.87 37.73-226.39 4.14-.97 3.84-.76 4.93-.76z"/><path d="m387.811 485.464-19.51-4.88-13.11 3.75c-28-168.01-34.81-208.86-37.68-226.06 32.86.01 29.92.11 31.53.52.32.08.67.17 1.04.26 3.31 19.86 11.24 67.45 37.73 226.41z"/><path d="m403.091 272.304c-29.187 51.008-76.649 105.51-115.29 139.7-18.296 16.116-45.477 15.924-63.53.03-39.974-35.403-86.619-89.571-115.32-139.73 1.632-.408 52.408-13.103 54.05-13.51 2.817-.71-8.634-.48 182.16-.48 2.799 0-.867-.706 57.93 13.99z"/></g><path d="m408.021 152.024c0 109.96-135.64 230.9-141.41 236-6.009 5.295-15.084 5.372-21.18 0-5.77-5.1-141.41-126.04-141.41-236 0-83.81 68.19-152 152-152s152 68.19 152 152z" fill="#f79caf"/><path d="m408.021 152.024c0 109.96-135.64 230.9-141.41 236-3.03 2.67-6.81 4-10.59 4-7.231 0-10.731-4.038-16-8.93 26.26-24.37 136-132.16 136-231.07 0-78.41-59.68-143.14-136-151.16 89.5-9.528 168 60.951 168 151.16z" fill="#e3889b"/><circle cx="256.021" cy="152.024" fill="#e2e0e0" r="88"/><path d="m344.021 152.024c0 54.991-50.071 96.516-104 86.54 40.91-7.54 72-43.48 72-86.54s-31.09-79-72-86.54c53.855-9.961 104 31.48 104 86.54z" fill="#cecccc"/><path d="" style="fill:none;stroke:#000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/><path d="" style="fill:none;stroke:#000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/></g></svg>
+              </div>
+              <div class="flex-1 space-y-1">
+                <div class="text-xl text-left text-gray-700 font-body">
+                    The Emerald Events Place
+                </div>
+                <div class="text-md text-gray-500 font-body"> Cabrera Rd, Antipolo, Rizal </div>
+                <div class="text-md text-gray-500 font-body">
+                  <a 
+                    class="focus:underline hover:text-theme-300"
+                    target="_blank"
+                    href="https://www.waze.com/en/live-map/directions/the-emerald-events-place-marigman-rd-1-antipolo?place=w.79429778.794035633.18752926"> 
+                    | Waze |
+                  </a>
+                  <a 
+                    class="focus:underline hover:text-theme-300"
+                    target="_blank"
+                    href="https://g.page/Emeraldeventsplace?share"> 
+                    GMaps |
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
-              <div class="flex-1 flex justify-between items-center">
-                <div class="h-4 w-48 bg-gray-300 rounded"></div>
-                <div class="w-24 h-6 rounded-lg bg-purple-300"></div>
+
+            <!-- Ceremony -->
+            <div class="flex space-x-4 py-2">
+              <div class="w-12">
+                <svg id="Layer_1" enable-background="new 0 0 512 512" height="50" viewBox="0 0 512 512" width="50" xmlns="http://www.w3.org/2000/svg"><g><path d="m256 512c-35.29 0-64-28.71-64-64 0-15.784 5.794-30.941 16.315-42.679 5.897-6.581 16.013-7.133 22.594-1.235 6.58 5.898 43.601 5.898 50.181 0 6.579-5.898 16.695-5.346 22.594 1.234 10.521 11.739 16.316 26.896 16.316 42.68 0 35.29-28.71 64-64 64z" fill="#f3d4b7"/><path d="m256 96c-26.467 0-48-21.533-48-48s21.533-48 48-48c26.468 0 48 21.533 48 48s-21.532 48-48 48zm0-64c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16z" fill="#e1c3a7"/><path d="m472 416c0 8.84-7.16 16-16 16h-400c-8.84 0-16-7.16-16-16s7.16-16 16-16h17.07c14.83-16.99 22.93-38.5 22.93-61.25v-114.75c0-88.572 72.15-160 160-160 88.22 0 160 71.78 160 160v114.75c0 23.347 8.518 44.746 22.93 61.25h17.07c8.84 0 16 7.16 16 16z" fill="#f3d4b7"/><path d="m472 416c0 8.84-7.16 16-16 16h-400c-8.84 0-16-7.16-16-16s7.16-16 16-16h17.07c14.83-16.99 22.93-38.5 22.93-61.25v-114.75c0-40.57 15.14-77.55 40-105.71v108.71c0 86.71 70.29 157 157 157h134.67c3.18 5.72 6.96 11.08 11.26 16h17.07c8.84 0 16 7.16 16 16z" fill="#e1c3a7"/><path d="m355.45 230.36c0 16.12-5.4 30.53-13.62 43.11-25.21 38.68-76.92 60.17-79.79 61.35-3.765 1.533-8.117 1.613-12.08 0-3.81-1.56-93.41-38.82-93.41-104.46 0-50.234 57.575-80.016 99.45-51.13 41.388-28.55 99.45.455 99.45 51.13z" fill="#f79caf"/><path d="m345.73 266.96c-1.21 2.22-2.52 4.39-3.9 6.51-25.21 38.68-76.92 60.17-79.79 61.35-3.76 1.53-8.12 1.61-12.08 0-3.81-1.56-93.41-38.82-93.41-104.46 0-26.95 16.58-48.02 38.42-57.29-1.57 5.42-2.42 11.2-2.42 17.29 0 65.64 89.6 102.9 93.41 104.46 3.96 1.61 8.32 1.53 12.08 0 1.89-.78 24.96-10.36 47.69-27.86z" fill="#e3889b"/></g></svg>
+              </div>
+              <div class="flex-1 space-y-1">
+                <div class="text-xl text-left text-gray-700 font-body">
+                    Ceremony starts at 3pm
+                </div>
+                <div class="text-md text-gray-500 font-body"> Photos & cocktails follows after </div>
               </div>
             </div>
-            <div class="p-5 bg-white rounded-lg flex items-center justify-between space-x-8">
-              <div class="flex-1 flex justify-between items-center">
-                <div class="h-4 w-48 bg-gray-300 rounded"></div>
-                <div class="w-24 h-6 rounded-lg bg-purple-300"></div>
+
+            <!-- Reception -->
+            <div class="flex space-x-4 py-2">
+              <div class="w-12">
+                <svg id="Layer_1" enable-background="new 0 0 512.102 512.102" height="50" viewBox="0 0 512.102 512.102" width="50" xmlns="http://www.w3.org/2000/svg"><g><path d="m256.051 208.102c-8.836 0-16-7.164-16-16v-40c0-8.836 7.164-16 16-16s16 7.164 16 16v40c0 8.837-7.163 16-16 16z" fill="#cecccc"/><path d="m416.051 192.102v152c0 8.84-7.16 16-16 16h-288c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h288c8.84 0 16 7.16 16 16z" fill="#e2e0e0"/><path d="m416.051 304.102v40c0 8.84-7.16 16-16 16h-288c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h32v8c0 66.27 53.73 120 120 120z" fill="#cecccc"/><path d="m464.051 344.102v152c0 8.84-7.16 16-16 16h-384c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h384c8.84 0 16 7.16 16 16z" fill="#e2e0e0"/><path d="m464.051 472.102v24c0 8.84-7.16 16-16 16h-384c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h24v4c0 77.32 62.68 140 140 140z" fill="#cecccc"/><path d="m400.051 176.102c-8.836 0-16 7.164-16 16 0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 20.534 6.129 40.016 17.259 54.855 25.409 33.879 69.685 33.687 94.741-1.76 25.308 35.803 70.627 35.89 96 0 25.035 35.411 69.302 35.679 94.741 1.76 11.129-14.839 17.259-34.321 17.259-54.855 0-8.836-7.163-16-16-16z" fill="#f79caf"/><path d="m448.051 328.102c-8.836 0-16 7.164-16 16 0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 20.534 6.129 40.016 17.259 54.855 25.415 33.887 69.687 33.676 94.741-1.76 25.316 35.807 70.628 35.885 96 0 25.327 35.817 70.626 35.883 96 0 25.039 35.409 69.301 35.681 94.741 1.76 11.129-14.839 17.259-34.321 17.259-54.855 0-8.836-7.163-16-16-16z" fill="#f79caf"/><path d="m496.051 512.102h-480c-8.836 0-16-7.164-16-16s7.164-16 16-16h480c8.836 0 16 7.164 16 16s-7.163 16-16 16z" fill="#a18b76"/><path d="m355.501 62.462c0 13.87-4 26.48-10.35 37.75-23.7 42.05-80.06 65.48-83.06 66.71-3.771 1.536-8.125 1.61-12.08 0-3.81-1.56-93.41-38.82-93.41-104.46 0-50.068 57.442-80.108 99.45-51.13 41.388-28.55 99.45.455 99.45 51.13z" fill="#f79caf"/><path d="m344.161 101.922c-24.24 40.97-79.11 63.79-82.07 65-3.77 1.54-8.13 1.61-12.08 0-3.81-1.56-93.41-38.82-93.41-104.46 0-24.21 13.43-43.74 32.05-54.17-2.6 6.78-4.05 14.22-4.05 22.17 0 65.64 89.6 102.9 93.41 104.46 3.95 1.61 8.31 1.54 12.08 0 2.07-.85 29.47-12.24 54.07-33z" fill="#e3889b"/></g></svg>
+              </div>
+              <div class="flex-1 space-y-1">
+                <div class="text-xl text-left text-gray-700 font-body">
+                    Reception at 5pm
+                </div>
+                <div class="text-md text-gray-500 font-body"> Something yada yada </div>
               </div>
             </div>
+
+          </div>
+        </div>
+
+        <div class="my-2 px-2 w-full overflow-hidden sm:w-1/2 md:w-full lg:w-1/2 xl:w-1/2">
+          <div class="flex-row rounded-md w-full mx-auto space-y-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.5201496679833!2d121.16254504940478!3d14.569411281698642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7fb8fce5735%3A0xc84901512d88bd1e!2sThe%20Emerald%20Events%20Place!5e0!3m2!1sen!2sph!4v1630261165373!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </div>
@@ -104,5 +156,13 @@ export default {
 <style scoped>
 .event {
   padding-bottom:144px; 
+}
+
+hr::after {
+  background-color: var(--bg);
+  content: attr(data-hr-content);
+  padding: var(--p);
+  position: absolute;
+  transform: translate(var(--trans-x), var(--trans-y));
 }
 </style>
