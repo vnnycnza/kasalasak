@@ -1,11 +1,11 @@
 <template>
   <div class="story">
     Story
-  <div
-    v-bind:class="{ hidden: showMenu }"
-    id="story"
-    class="container mx-auto my-auto item-center justify-center h-3/4"
-  ></div>
+    <div
+      v-bind:class="{ hidden: showMenu }"
+      id="story"
+      class="container mx-auto my-auto item-center justify-center h-3/4"
+    ></div>
   </div>
 </template>
 
@@ -25,6 +25,6 @@ export default {
 
 <style scoped>
 .story {
-  padding-bottom:144px; 
+  padding-bottom: 144px;
 }
 </style>

@@ -61,175 +61,113 @@
       class="text-3xl md:text-4xl tracking-tight text-gray-700 font-caveat py-4"
       >We're finally tying the knot in...</span
     >
-    <div
-      class="
-        flex flex-wrap
-        overflow-hidden
-        mx-2
-        py-2
-        mt-2
-        md:py-4 md:mx-20
-        xl:mx-40
-      "
-    >
-      <!-- Months -->
-      <div
-        class="
-          w-1/2
-          my-3
-          px-3
-          overflow-hidden
-          sm:w-1/2
-          md:w-1/2
-          lg:w-1/6
-          xl:w-1/6
-        "
-      >
-        <div class="text-gray-700 text-center">
-          <component
-            :is="component"
-            :progress="this.progress.months"
-            v-bind="options"
-            :legend-value="this.months"
-          >
-          </component>
-          <div class="font-body text-base">
-            <p slot="legend-caption">months</p>
+    <div class="flex justify-center py-4">
+      <div class="flex flex-wrap overflow-hidden md:w-1/2">
+        <!-- Days -->
+        <div
+          class="
+            my-3
+            px-3
+            w-1/2
+            overflow-hidden
+            sm:w-1/4
+            md:w-1/2
+            lg:w-1/4
+            xl:w-1/4
+          "
+        >
+          <div class="text-gray-700 text-center">
+            <component
+              :is="component"
+              :progress="this.progress.days"
+              v-bind="options"
+              :legend-value="this.days"
+            >
+            </component>
+            <div class="font-body text-base">
+              <p slot="legend-caption">days</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Weeks -->
-      <div
-        class="
-          w-1/2
-          my-3
-          px-3
-          overflow-hidden
-          sm:w-1/2
-          md:w-1/2
-          lg:w-1/6
-          xl:w-1/6
-        "
-      >
-        <div class="text-gray-700 text-center">
-          <component
-            :is="component"
-            :progress="this.progress.weeks"
-            v-bind="options"
-            :legend-value="this.weeks"
-          >
-          </component>
-          <div class="font-body text-base">
-            <p slot="legend-caption">weeks</p>
+        <!-- Hours -->
+        <div
+          class="
+            my-3
+            px-3
+            w-1/2
+            overflow-hidden
+            sm:w-1/4
+            md:w-1/2
+            lg:w-1/4
+            xl:w-1/4
+          "
+        >
+          <div class="text-gray-700 text-center">
+            <component
+              :is="component"
+              :progress="this.progress.hours"
+              v-bind="options"
+              :legend-value="this.hours"
+            >
+            </component>
+            <div class="font-body text-base">
+              <p slot="legend-caption">hours</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Days -->
-      <div
-        class="
-          w-1/2
-          my-3
-          px-3
-          overflow-hidden
-          sm:w-1/2
-          md:w-1/2
-          lg:w-1/6
-          xl:w-1/6
-        "
-      >
-        <div class="text-gray-700 text-center">
-          <component
-            :is="component"
-            :progress="this.progress.days"
-            v-bind="options"
-            :legend-value="this.days"
-          >
-          </component>
-          <div class="font-body text-base">
-            <p slot="legend-caption">days</p>
+        <!-- Minutes -->
+        <div
+          class="
+            my-3
+            px-3
+            w-1/2
+            overflow-hidden
+            sm:w-1/4
+            md:w-1/2
+            lg:w-1/4
+            xl:w-1/4
+          "
+        >
+          <div class="text-gray-700 text-center">
+            <component
+              :is="component"
+              :progress="this.progress.minutes"
+              v-bind="options"
+              :legend-value="this.minutes"
+            >
+            </component>
+            <div class="font-body text-base">
+              <p slot="legend-caption">minutes</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Hours -->
-      <div
-        class="
-          w-1/2
-          my-3
-          px-3
-          overflow-hidden
-          sm:w-1/2
-          md:w-1/2
-          lg:w-1/6
-          xl:w-1/6
-        "
-      >
-        <div class="text-gray-700 text-center">
-          <component
-            :is="component"
-            :progress="this.progress.hours"
-            v-bind="options"
-            :legend-value="this.hours"
-          >
-          </component>
-          <div class="font-body text-base">
-            <p slot="legend-caption">hours</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Minutes -->
-      <div
-        class="
-          w-1/2
-          my-3
-          px-3
-          overflow-hidden
-          sm:w-1/2
-          md:w-1/2
-          lg:w-1/6
-          xl:w-1/6
-        "
-      >
-        <div class="text-gray-700 text-center">
-          <component
-            :is="component"
-            :progress="this.progress.minutes"
-            v-bind="options"
-            :legend-value="this.minutes"
-          >
-          </component>
-          <div class="font-body text-base">
-            <p slot="legend-caption">minutes</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Seconds -->
-      <div
-        class="
-          w-1/2
-          my-3
-          px-3
-          overflow-hidden
-          sm:w-1/2
-          md:w-1/2
-          lg:w-1/6
-          xl:w-1/6
-        "
-      >
-        <div class="text-gray-700 text-center">
-          <component
-            :is="component"
-            :progress="this.progress.seconds"
-            v-bind="options"
-            :legend-value="this.seconds"
-          >
-          </component>
-          <div class="font-body text-base">
-            <p slot="legend-caption">seconds</p>
+        <!-- Seconds -->
+        <div
+          class="
+            my-3
+            px-3
+            w-1/2
+            overflow-hidden
+            sm:w-1/4
+            md:w-1/2
+            lg:w-1/4
+            xl:w-1/4
+          "
+        >
+          <div class="text-gray-700 text-center">
+            <component
+              :is="component"
+              :progress="this.progress.seconds"
+              v-bind="options"
+              :legend-value="this.seconds"
+            >
+            </component>
+            <div class="font-body text-base">
+              <p slot="legend-caption">seconds</p>
+            </div>
           </div>
         </div>
       </div>
@@ -254,15 +192,11 @@ export default {
         legendClass: "font-body text-gray-700 text-4xl",
       },
       progress: {
-        months: 0,
-        weeks: 0,
         days: 0,
         hours: 0,
         minutes: 0,
         seconds: 0,
       },
-      months: "0",
-      weeks: "0",
       seconds: "0",
       minutes: "0",
       hours: "0",
@@ -291,21 +225,9 @@ export default {
         let distance =
           Math.abs(this.weddingDate.getTime() - now.getTime()) / 1000;
 
-        // calculate months
-        let months = Math.floor(distance / 2419200);
-        const nowDate = now.getDate();
-        const targetDate = this.weddingDate.getDate();
-        if (nowDate > targetDate) months--;
-
         // calculate (and subtract) whole days
         const days = Math.floor(distance / 86400);
         distance -= days * 86400;
-
-        // calculate weeks
-        const weeks = Math.floor(days / 7);
-
-        // calculate remaining days (excluding the days)
-        const remainingDays = days % 7;
 
         // calculate (and subtract) whole hours
         const hours = Math.floor(distance / 3600) % 24;
@@ -319,17 +241,13 @@ export default {
         const seconds = Math.floor(distance % 60);
 
         // Calculate Progress
-        this.progress.months = this.calculateProgress(months, 12);
-        this.progress.weeks = this.calculateProgress(weeks, 7 * months);
-        this.progress.days = this.calculateProgress(remainingDays, 7);
+        this.progress.days = this.calculateProgress(days, 365);
         this.progress.hours = this.calculateProgress(hours, 24);
         this.progress.minutes = this.calculateProgress(minutes, 60);
         this.progress.seconds = this.calculateProgress(seconds, 60);
 
         // Set Times
-        this.months = months.toString();
-        this.weeks = weeks.toString();
-        this.days = remainingDays.toString();
+        this.days = days.toString();
         this.hours = hours.toString();
         this.minutes = minutes.toString();
         this.seconds = seconds.toString();
@@ -338,8 +256,6 @@ export default {
         // Stop
         if (this.distance < 0) {
           clearInterval(this.countdown);
-          this.months = "0";
-          this.weeks = "0";
           this.days = "0";
           this.hours = "0";
           this.minutes = "0";

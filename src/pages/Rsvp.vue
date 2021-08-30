@@ -1,10 +1,10 @@
 <template>
   <div class="rsvp">
-  <div
-    v-bind:class="{ hidden: showMenu }"
-    id="rsvp"
-    class="container mx-auto my-auto item-center justify-center"
-  ></div>
+    <div
+      v-bind:class="{ hidden: showMenu }"
+      id="rsvp"
+      class="container mx-auto my-auto item-center justify-center"
+    ></div>
   </div>
 </template>
 
@@ -24,6 +24,6 @@ export default {
 
 <style scoped>
 .rsvp {
-  padding-bottom:144px; 
+  padding-bottom: 144px;
 }
 </style>
