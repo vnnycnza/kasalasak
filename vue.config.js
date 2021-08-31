@@ -1,3 +1,16 @@
+const path = require("path");
+const PrerenderSPAPlugin = require("prerender-spa-plugin");
+
 module.exports = {
-  lintOnSave: false,
+  configureWebpack: () => {
+    if (process.env.NODE_ENV !== "production") return;
+    return {
+      plugins: [
+        new PrerenderSPAPlugin({
+          staticDir: path.join(__dirname, "dist"),
+          routes: ["/", "/event", "/rsvp", "/story"],
+        }),
+      ],
+    };
+  },
 };

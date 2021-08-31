@@ -21,7 +21,14 @@
       </div>
 
       <section id="form" class="flex item-center justify-center pb-6 mt-8">
-        <form name="contact" class="w-full max-w-lg" data-netlify="true">
+        <form
+          name="contact"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          class="w-full max-w-lg"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label class="block uppercase tracking-wide text-gray-700 text-xs font-body mb-2" for="grid-first-name">
