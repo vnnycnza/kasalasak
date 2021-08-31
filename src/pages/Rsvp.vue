@@ -114,6 +114,7 @@
                 id="grid-first-name"
                 type="text"
                 placeholder="Jane"
+                name="first_name"
               />
             </div>
             <div class="w-full md:w-1/2 px-3">
@@ -147,6 +148,7 @@
                 id="grid-last-name"
                 type="text"
                 placeholder="Doe"
+                name="last_name"
               />
             </div>
           </div>
@@ -182,6 +184,7 @@
                 "
                 id="email"
                 type="email"
+                name="email"
               />
             </div>
           </div>
@@ -219,6 +222,7 @@
                   resize-none
                 "
                 id="message"
+                name="message"
               ></textarea>
             </div>
           </div>
