@@ -236,7 +236,7 @@
                   px-4
                   rounded
                 "
-                type="button"
+                type="submit"
               >
                 Send
               </button>
