@@ -63,7 +63,9 @@
         </svg>
       </div>
       <div class="flex item-center justify-center">
-        <span class="text-3xl md:text-4xl tracking-tight text-gray-700 font-caveat">
+        <span
+          class="text-3xl md:text-4xl tracking-tight text-gray-700 font-caveat"
+        >
           We're finally tying the knot in...
         </span>
       </div>
