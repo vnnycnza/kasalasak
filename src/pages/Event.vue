@@ -384,22 +384,58 @@
           
 
           <!-- Colors -->
-          <div class="flex item-center justify-center pt-4">
-            <div class="flex">
-              <div class="my-3 px-3 w-1/2 sm:w-1/4 md:w-1/2 lg:w-1/4 xl:w-1/4">
-                <div class="rounded-full h-20 w-20 flex items-center justify-center bg-theme-300"></div>
+          <div class="flex items-center justify-center px-16 pt-2 mx-auto">
+            <div class="flex flex-wrap overflow-hidden md:w-1/2">
+              <div class="
+                my-3
+                px-3
+                w-1/2
+                overflow-hidden
+                sm:w-1/4
+                md:w-1/2
+                lg:w-1/4
+                xl:w-1/4"
+              >
+                <div class="mx-auto rounded-full h-20 w-20 items-center justify-center bg-theme-300"></div>
               </div>
 
-              <div class="my-3 px-3 w-1/2 sm:w-1/4 md:w-1/2 lg:w-1/4 xl:w-1/4">
-                <div class="rounded-full h-20 w-20 flex items-center justify-center bg-theme-50"></div>
+              <div class="
+                my-3
+                px-3
+                w-1/2
+                overflow-hidden
+                sm:w-1/4
+                md:w-1/2
+                lg:w-1/4
+                xl:w-1/4"
+              >
+                <div class="mx-auto rounded-full h-20 w-20 flex items-center justify-center bg-theme-50"></div>
               </div>
 
-              <div class="my-3 px-3 w-1/2 sm:w-1/4 md:w-1/2 lg:w-1/4 xl:w-1/4">
-                <div class="rounded-full h-20 w-20 flex items-center justify-center bg-theme-100"></div>
+              <div class="
+                my-3
+                px-3
+                w-1/2
+                overflow-hidden
+                sm:w-1/4
+                md:w-1/2
+                lg:w-1/4
+                xl:w-1/4"
+              >
+                <div class="mx-auto rounded-full h-20 w-20 flex items-center justify-center bg-theme-100"></div>
               </div>
 
-              <div class="my-3 px-3 w-1/2 sm:w-1/4 md:w-1/2 lg:w-1/4 xl:w-1/4">
-                <div class="rounded-full h-20 w-20 flex items-center justify-center bg-theme-200"></div>
+              <div class="
+                my-3
+                px-3
+                w-1/2
+                overflow-hidden
+                sm:w-1/4
+                md:w-1/2
+                lg:w-1/4
+                xl:w-1/4"
+              >
+                <div class="mx-auto rounded-full h-20 w-20 flex items-center justify-center bg-theme-200"></div>
               </div>
             </div>
           </div>
@@ -407,34 +443,34 @@
           <!-- Attire -->
           <div class="flex-col item-center justify-center items-center text-center">
             <div class="my-3 p-3 w-full overflow-hidden">
-              <div class="flex-1 space-y-1">
-                <div class="text-3xl text-gray-700 font-caveat">
+              <div class="flex-1 space-y-1 px-4">
+                <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Principal Sponsors
                 </div>
-                <div class="text-lg text-gray-600 font-body">
-                  Ninongs, kindly wear black suit partnered with a yellow necktie. <br>
+                <div class="text-base text-gray-600 font-body">
+                  Ninongs, kindly wear black suit with a yellow necktie. <br>
                   Ninangs, come in a gown or formal dress in yellow.
                 </div>
               </div>
             </div>
 
             <div class="my-3 p-3 w-full overflow-hidden">
-              <div class="flex-1 space-y-1">
-                <div class="text-3xl text-gray-700 font-caveat">
+              <div class="flex-1 space-y-1 px-4">
+                <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Groom's and Bride's Squad
                 </div>
-                <div class="text-lg text-gray-600 font-body">
+                <div class="text-base text-gray-600 font-body">
                   We'll let you know what we'd expect you to wear. <br> Don't worry, you'll look good in it.
                 </div>
               </div>
             </div>
 
             <div class="my-3 p-3 w-full overflow-hidden">
-              <div class="flex-1 space-y-1">
-                <div class="text-3xl text-gray-700 font-caveat">
+              <div class="flex-1 space-y-1 px-4">
+                <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Guests
                 </div>
-                <div class="text-lg text-gray-600 font-body">
+                <div class="text-base text-gray-600 font-body">
                   Dress comfortably but look good while you're at it. <br> If you can, we'd love to see you wearing our colors.
                 </div>
               </div>
@@ -469,12 +505,19 @@
           <div class="flex-col item-center justify-center items-center text-center">
             <div class="my-3 p-3 w-full overflow-hidden">
               <div class="flex-1 space-y-1">
-                <div class="text-3xl text-gray-700 font-caveat">
+                <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   We are grateful for you
                 </div>
-                <div class="text-lg text-gray-600 font-body">
+                <div class="mx-auto text-base text-gray-600 font-body">
                   You're part of this celebration because you have a huge part in our life. <br>
                   For that, we want to let you know that we appreciate you. <br>
+                </div>
+              </div>
+              <div class="flex-1 space-y-1 mt-6">
+                <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
+                  Thank you
+                </div>
+                <div class="mx-auto text-base text-gray-600 font-body">
                   Your presence and prayers are the best gifts you can bless us with. <br>
                   But if you desire to give nonetheless, a monetary gift is what we suggest. <br>
                 </div>
