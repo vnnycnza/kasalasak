@@ -3,9 +3,9 @@
     <div
       v-bind:class="{ hidden: showMenu }"
       id="rsvp"
-      class="container mx-auto my-auto item-center justify-center"
+      class="container mx-auto my-auto items-center justify-center"
     >
-      <div class="flex item-center justify-center py-4 mt-8">
+      <div class="flex items-center justify-center py-4 mt-8">
         <svg
           id="invite"
           enable-background="new 0 0 512 512"
@@ -50,21 +50,29 @@
           </g>
         </svg>
       </div>
-      <div class="flex item-center justify-center">
+
+      <div class="flex items-center justify-center">
         <span
-          class="text-3xl md:text-4xl tracking-tight text-gray-700 font-caveat"
+          class="
+            mx-6
+            text-3xl
+            md:text-4xl
+            tracking-tight
+            text-gray-700 text-center
+            font-caveat
+          "
         >
           Uhmm... we're still finalizing our guest list ✌🏻
         </span>
       </div>
 
       <div class="flex item-center justify-center py-2">
-        <span class="text-lg tracking-tight text-gray-700 font-body">
+        <span class="mx-6 text-lg tracking-tight text-gray-700 font-body">
           Feel free to drop us a message below
         </span>
       </div>
 
-      <section id="form" class="flex item-center justify-center pb-6 mt-8">
+      <section id="form" class="flex item-center justify-center pb-6 mt-8 mx-6">
         <form
           name="contact"
           method="post"

@@ -483,7 +483,9 @@
           />
 
           <!-- Colors -->
-          <div class="flex items-center justify-center px-16 pt-2 mx-auto">
+          <div
+            class="flex items-center justify-center px-14 sm:px-12 pt-2 mx-6"
+          >
             <div class="flex flex-wrap overflow-hidden md:w-1/2">
               <div
                 class="
@@ -594,38 +596,38 @@
           <div
             class="flex-col item-center justify-center items-center text-center"
           >
-            <div class="my-3 p-3 w-full overflow-hidden">
+            <div class="my-3 px-2 py-3 w-full overflow-hidden">
               <div class="flex-1 space-y-1 px-4">
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Principal Sponsors
                 </div>
                 <div class="text-base text-gray-600 font-body">
-                  Ninongs, kindly wear black suit with a yellow necktie. <br />
+                  Ninongs, kindly wear black suit with a yellow necktie.
                   Ninangs, come in a gown or formal dress in yellow.
                 </div>
               </div>
             </div>
 
-            <div class="my-3 p-3 w-full overflow-hidden">
+            <div class="my-3 px-2 py-3 w-full overflow-hidden">
               <div class="flex-1 space-y-1 px-4">
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Groom's and Bride's Squad
                 </div>
-                <div class="text-base text-gray-600 font-body">
-                  We'll let you know what we'd expect you to wear. <br />
-                  Don't worry, you'll look good in it.
+                <div class="mx-40 text-base text-gray-600 mx-10 font-body">
+                  We'll let you know what we'd expect you to wear. Don't worry,
+                  you'll look good in it.
                 </div>
               </div>
             </div>
 
-            <div class="my-3 p-3 w-full overflow-hidden">
+            <div class="my-3 px-2 py-3 w-full overflow-hidden">
               <div class="flex-1 space-y-1 px-4">
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Guests
                 </div>
                 <div class="text-base text-gray-600 font-body">
-                  Dress comfortably but look good while you're at it. <br />
-                  If you can, we'd love to see you wearing our colors.
+                  Dress comfortably but look good while you're at it. If you
+                  can, we'd love to see you wearing our colors.
                 </div>
               </div>
             </div>
@@ -709,7 +711,7 @@
           <div
             class="flex-col item-center justify-center items-center text-center"
           >
-            <div class="my-3 p-3 w-full overflow-hidden">
+            <div class="my-3 px-6 py-4 w-full overflow-hidden">
               <div class="flex-1 space-y-1">
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   We are grateful for you
