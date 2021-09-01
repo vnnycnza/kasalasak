@@ -613,7 +613,7 @@
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Groom's and Bride's Squad
                 </div>
-                <div class="mx-40 text-base text-gray-600 mx-10 font-body">
+                <div class="text-base text-gray-600 mx-10 font-body">
                   We'll let you know what we'd expect you to wear. Don't worry,
                   you'll look good in it.
                 </div>
