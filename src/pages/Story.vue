@@ -297,6 +297,294 @@
               />
             </div>
           </div>
+          <!-- left -->
+          <div class="flex flex-row-reverse md:contents">
+            <div
+              class="
+                col-start-1 col-end-5
+                p-4
+                rounded-xl
+                my-4
+                ml-auto
+                shadow-md
+              "
+            >
+              <StoryItem
+                :images="getContent(6).images"
+                :title="getContent(6).title"
+                :desc="getContent(6).desc"
+              />
+            </div>
+            <div class="col-start-5 col-end-6 md:mx-auto relative mr-6">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-theme-300 pointer-events-none"></div>
+              </div>
+              <div
+                class="
+                  w-6
+                  h-6
+                  absolute
+                  top-1/2
+                  -mt-3
+                  rounded-full
+                  bg-theme-300
+                  shadow
+                "
+              ></div>
+            </div>
+          </div>
+          <!-- right -->
+          <div class="flex md:contents">
+            <div class="col-start-5 col-end-6 mr-6 md:mx-auto relative">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-theme-300 pointer-events-none"></div>
+              </div>
+              <div
+                class="
+                  w-6
+                  h-6
+                  absolute
+                  top-1/2
+                  -mt-3
+                  rounded-full
+                  bg-theme-300
+                  shadow
+                "
+              ></div>
+            </div>
+            <div
+              class="
+                col-start-6 col-end-10
+                p-4
+                rounded-xl
+                my-4
+                mr-auto
+                shadow-md
+              "
+            >
+              <StoryItem
+                :images="getContent(7).images"
+                :title="getContent(7).title"
+                :desc="getContent(7).desc"
+              />
+            </div>
+          </div>
+          <!-- left -->
+          <div class="flex flex-row-reverse md:contents">
+            <div
+              class="
+                col-start-1 col-end-5
+                p-4
+                rounded-xl
+                my-4
+                ml-auto
+                shadow-md
+              "
+            >
+              <StoryItem
+                :images="getContent(8).images"
+                :title="getContent(8).title"
+                :desc="getContent(8).desc"
+              />
+            </div>
+            <div class="col-start-5 col-end-6 md:mx-auto relative mr-6">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-theme-300 pointer-events-none"></div>
+              </div>
+              <div
+                class="
+                  w-6
+                  h-6
+                  absolute
+                  top-1/2
+                  -mt-3
+                  rounded-full
+                  bg-theme-300
+                  shadow
+                "
+              ></div>
+            </div>
+          </div>
+          <!-- right -->
+          <div class="flex md:contents">
+            <div class="col-start-5 col-end-6 mr-6 md:mx-auto relative">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-theme-300 pointer-events-none"></div>
+              </div>
+              <div
+                class="
+                  w-6
+                  h-6
+                  absolute
+                  top-1/2
+                  -mt-3
+                  rounded-full
+                  bg-theme-300
+                  shadow
+                "
+              ></div>
+            </div>
+            <div
+              class="
+                col-start-6 col-end-10
+                p-4
+                rounded-xl
+                my-4
+                mr-auto
+                shadow-md
+              "
+            >
+              <StoryItem
+                :images="getContent(9).images"
+                :title="getContent(9).title"
+                :desc="getContent(9).desc"
+              />
+            </div>
+          </div>
+          <!-- left -->
+          <div class="flex flex-row-reverse md:contents">
+            <div
+              class="
+                col-start-1 col-end-5
+                p-4
+                rounded-xl
+                my-4
+                ml-auto
+                shadow-md
+              "
+            >
+              <StoryItem
+                :images="getContent(10).images"
+                :title="getContent(10).title"
+                :desc="getContent(10).desc"
+              />
+            </div>
+            <div class="col-start-5 col-end-6 md:mx-auto relative mr-6">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-theme-300 pointer-events-none"></div>
+              </div>
+              <div
+                class="
+                  w-6
+                  h-6
+                  absolute
+                  top-1/2
+                  -mt-3
+                  rounded-full
+                  bg-theme-300
+                  shadow
+                "
+              ></div>
+            </div>
+          </div>
+          <!-- right -->
+          <div class="flex md:contents">
+            <div class="col-start-5 col-end-6 mr-6 md:mx-auto relative">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-theme-300 pointer-events-none"></div>
+              </div>
+              <div
+                class="
+                  w-6
+                  h-6
+                  absolute
+                  top-1/2
+                  -mt-3
+                  rounded-full
+                  bg-theme-300
+                  shadow
+                "
+              ></div>
+            </div>
+            <div
+              class="
+                col-start-6 col-end-10
+                p-4
+                rounded-xl
+                my-4
+                mr-auto
+                shadow-md
+              "
+            >
+              <StoryItem
+                :images="getContent(11).images"
+                :title="getContent(11).title"
+                :desc="getContent(11).desc"
+              />
+            </div>
+          </div>
+          <!-- left -->
+          <div class="flex flex-row-reverse md:contents">
+            <div
+              class="
+                col-start-1 col-end-5
+                p-4
+                rounded-xl
+                my-4
+                ml-auto
+                shadow-md
+              "
+            >
+              <StoryItem
+                :images="getContent(12).images"
+                :title="getContent(12).title"
+                :desc="getContent(12).desc"
+              />
+            </div>
+            <div class="col-start-5 col-end-6 md:mx-auto relative mr-6">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-theme-300 pointer-events-none"></div>
+              </div>
+              <div
+                class="
+                  w-6
+                  h-6
+                  absolute
+                  top-1/2
+                  -mt-3
+                  rounded-full
+                  bg-theme-300
+                  shadow
+                "
+              ></div>
+            </div>
+          </div>
+          <!-- right -->
+          <div class="flex md:contents">
+            <div class="col-start-5 col-end-6 mr-6 md:mx-auto relative">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-theme-300 pointer-events-none"></div>
+              </div>
+              <div
+                class="
+                  w-6
+                  h-6
+                  absolute
+                  top-1/2
+                  -mt-3
+                  rounded-full
+                  bg-theme-300
+                  shadow
+                "
+              ></div>
+            </div>
+            <div
+              class="
+                col-start-6 col-end-10
+                p-4
+                rounded-xl
+                my-4
+                mr-auto
+                shadow-md
+              "
+            >
+              <StoryItem
+                :images="getContent(13).images"
+                :title="getContent(13).title"
+                :desc="getContent(13).desc"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -326,9 +614,9 @@ export default {
           desc: "Few years later, JM had a crush on Vanny and he started hanging out with her more. One of the most memorable ones would be UP Fair 2014 where Vanny went with JM to watch him perform.",
         },
         {
-          images: ["story/03.png", "story/0301.png"],
-          title: "First Date & Party - Feb 14 2014",
-          desc: "First Valentines together. For JM, this was their first date. For Vanny, he was just asking her to grab dinner with her. 😂 The next day, JM went to a party organised by CS Dept which Vanny led & was a part of. #support",
+          images: ["story/0301.png", "story/0302.png"],
+          title: "First Date & Party",
+          desc: "Feb 14 2014 was their first Valentines together. For JM, this was their first date. For Vanny, he was just asking her to grab dinner with her. 😂 The next day, JM went to a party organised by CS Dept which Vanny led & was a part of. It's probably when sparks started flying.",
         },
         {
           images: ["story/04.png"],
@@ -349,6 +637,75 @@ export default {
           ],
           title: "Ginny 🐶",
           desc: "On Nov 2015, they became dog parents to their furry baby Ginny! It was in early 2016 that JM got custody of this cutie. Definitely a bundle of joy!",
+        },
+        {
+          images: [
+            "story/0701.png",
+            "story/0702.png",
+            "story/0703.png",
+            "story/0704.png",
+            "story/0705.png",
+          ],
+          title: "Date Nights",
+          desc: "Time together is usually spent on dinner & movie dates. JM and Vanny also loves seeing concerts & exploring cool places. JM is an awesome musician and there was a time when most of their dinner dates are gig nights. Definitely tiring but so fun and awesome. 🎸🥁",
+        },
+        {
+          images: [
+            "story/0801.png",
+            "story/0802.png",
+            "story/0803.png",
+            "story/0804.png",
+            "story/0805.png",
+          ],
+          title: "Church Family",
+          desc: "JM and Vanny love weekends, most especially Sundays. They go to church together & spend quality time with their church family. The fun isn't confined on Sundays though - they've enjoyed serving in youth camps together, having fellowships & even just random trips with the gang.",
+        },
+        {
+          images: [
+            "story/0901.png",
+            "story/0902.png",
+            "story/0903.png",
+            "story/0904.png",
+          ],
+          title: "Love for travel",
+          desc: "As home buddies, JM and Vanny only discovered their love for travel in 2018. Since then, they would set aside weeklong leaves and invite their closest friends to have much awaited vacation in beautiful & relaxing places.",
+        },
+        {
+          images: ["story/1001.png"],
+          title: "Singapore",
+          desc: "On Oct 2019, Vanny got the opportunity to work in Singapore. Being the sweet & ever so supportive bf, JM went with Vanny to help her settle in. It was a weeklong trip that would have a bittersweet ending.",
+        },
+        {
+          images: ["story/1101.png"],
+          title: "Goodbye for now - Oct 2019",
+          desc: "Vanny celebrated her 26th birthday in Singapore with JM. It was spent grocery shopping and settling Vanny in her new place. This would also be the same day that JM goes home to Manila and Vanny will be left in SG to work.",
+        },
+        {
+          images: [
+            "story/1201.png",
+            "story/1202.png",
+            "story/1203.png",
+            "story/1204.png",
+            "story/1205.png",
+          ],
+          title: "So near yet so far",
+          desc: "JM and Vanny spent almost a year and half apart. Add in the unexpected pandemic, it was indeed a recipe for disaster. It was probably the most difficult experience but by God's love & grace, this only made the two stronger.",
+        },
+        {
+          images: ["story/1301.png", "story/1302.png"],
+          title: "Reunited - 05.2021",
+          desc: "God is faithful and His timing is always perfect. By His grace, Vanny was able to return back home and is reunited with JM.",
+        },
+        {
+          images: [
+            "story/1401.png",
+            "story/1402.png",
+            "story/1403.png",
+            "story/1404.png",
+            "story/1405.png",
+          ],
+          title: "We got engaged - 07.16.2022",
+          desc: 'A month before their 7th anniversary, JM and Vanny, together with their most supportive friends, went to Tagaytay for a relaxing weekend staycation. Surprisingly, with their friends as the "kakuntsaba", JM asked Vanny to marry her. Of course, she said yes. 💍',
         },
       ],
     };

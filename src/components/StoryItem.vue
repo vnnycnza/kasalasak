@@ -6,7 +6,6 @@
         mx-auto
         max-w-sm
         bg-white
-        rounded-xl
         shadow-lg
         hover:shadow-2xl
         transform
@@ -14,7 +13,7 @@
         duration-500
       "
     >
-      <div v-show="hasMultipleImages" class="slider">
+      <!-- <div v-show="hasMultipleImages" class="slider">
         <button
           @click="change()"
           class="absolute bg-gray-100 rounded-full w-11 h-11 shadow-md z-10"
@@ -34,7 +33,7 @@
             ></path>
           </svg>
         </button>
-      </div>
+      </div> -->
       <img :src="require(`../assets/${selectedImage}`)" alt="" />
       <div class="py-2">
         <h1
@@ -85,6 +84,13 @@ export default {
     selectedImage() {
       return this.images[this.currentImageIndex];
     },
+  },
+  mounted() {
+    if (this.images.length > 1) {
+      setInterval(() => {
+        this.change();
+      }, 2000);
+    }
   },
   methods: {
     change() {
