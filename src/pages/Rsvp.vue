@@ -62,13 +62,22 @@
             font-caveat
           "
         >
-          Uhmm... we're still finalizing our guest list ✌🏻
+          Uhmmm... we're still finalizing our guest list ✌🏻
         </span>
       </div>
 
       <div class="flex item-center justify-center py-2">
-        <span class="mx-6 text-lg tracking-tight text-gray-700 font-body">
-          Feel free to drop us a message below
+        <span
+          class="
+            mx-6
+            text-base
+            tracking-tight
+            text-gray-600
+            font-body
+            text-center
+          "
+        >
+          Leave us a message. We'd appreciate it 💙
         </span>
       </div>
 
@@ -262,6 +271,14 @@ export default {
     ...mapGetters({
       showMenu: "getShowMenu",
     }),
+  },
+  mounted() {
+    this.scrollToTop();
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
   },
 };
 </script>

@@ -165,9 +165,13 @@
                       </svg>
                     </div>
                     <div class="flex-1 space-y-1">
-                      <div class="text-lg text-left text-blue-800 font-body">
+                      <a
+                        href="https://www.instagram.com/theemeraldeventsplace/"
+                        class="text-lg text-left text-blue-800 font-body"
+                        target="_blank"
+                      >
                         The Emerald Events Place
-                      </div>
+                      </a>
                       <div class="text-xs text-gray-700 font-body">
                         Cabrera Rd, Antipolo, Rizal
                       </div>
@@ -755,6 +759,14 @@ export default {
     ...mapGetters({
       showMenu: "getShowMenu",
     }),
+  },
+  mounted() {
+    this.scrollToTop();
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
   },
 };
 </script>

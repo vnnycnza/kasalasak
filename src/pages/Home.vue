@@ -88,6 +88,14 @@ export default {
       showMenu: "getShowMenu",
     }),
   },
+  mounted() {
+    this.scrollToTop();
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
 };
 </script>
 
