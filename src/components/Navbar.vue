@@ -8,7 +8,7 @@
           <div class="flex space-x-7">
             <div>
               <!-- Website Logo -->
-              <a href="" class="flex items-center py-3 px-2">
+              <a href="/" class="flex items-center py-3 px-2">
                 <!-- https://www.flaticon.com/free-icon/wedding-rings_3096904?related_id=3096904&origin=pack -->
                 <svg
                   id="logo"

@@ -664,12 +664,7 @@ export default {
           desc: "JM and Vanny love weekends, most especially Sundays. They go to church together & spend quality time with their church family. The fun isn't confined on Sundays though - they've enjoyed serving in youth camps together, having fellowships & even just random trips with the gang.",
         },
         {
-          images: [
-            "story/0901.png",
-            "story/0902.png",
-            "story/0903.png",
-            "story/0904.png",
-          ],
+          images: ["story/0901.png", "story/0902.png", "story/0903.png"],
           title: "Love for travel",
           desc: "As home buddies, JM and Vanny only discovered their love for travel in 2018. Since then, they would set aside weeklong leaves and invite their closest friends to have much awaited vacation in beautiful & relaxing places.",
         },
