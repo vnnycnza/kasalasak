@@ -34,7 +34,7 @@
           </svg>
         </button>
       </div> -->
-      <img :src="require(`../assets/${selectedImage}`)" alt="" />
+      <img :src="require(`../assets/${selectedImage}`)" class="object-cover h-58 w-full items-center" alt="" />
       <div class="py-2">
         <h1
           class="

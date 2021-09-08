@@ -615,7 +615,7 @@ export default {
         },
         {
           images: ["story/0301.png", "story/0302.png"],
-          title: "First Date & Party",
+          title: "First Date",
           desc: "Feb 14 2014 was their first Valentines together. For JM, this was their first date. For Vanny, he was just asking her to grab dinner with her. 😂 The next day, JM went to a party organised by CS Dept which Vanny led & was a part of. It's probably when sparks started flying.",
         },
         {
@@ -634,6 +634,7 @@ export default {
             "story/0602.png",
             "story/0603.png",
             "story/0604.png",
+            "story/0605.png",
           ],
           title: "Ginny 🐶",
           desc: "On Nov 2015, they became dog parents to their furry baby Ginny! It was in early 2016 that JM got custody of this cutie. Definitely a bundle of joy!",
@@ -645,9 +646,10 @@ export default {
             "story/0703.png",
             "story/0704.png",
             "story/0705.png",
+            "story/0706.png",
           ],
           title: "Date Nights",
-          desc: "Time together is usually spent on dinner & movie dates. JM and Vanny also loves seeing concerts & exploring cool places. JM is an awesome musician and there was a time when most of their dinner dates are gig nights. Definitely tiring but so fun and awesome. 🎸🥁",
+          desc: "Time together is usually spent on staying in & watching random shows. Pre-pandemic, they would always go on dinner & movie dates. They also love seeing concerts & exploring cool places. JM is an awesome musician and there was a time when most of their dinner dates are gig nights. Definitely tiring but so fun and awesome. 🎸🥁",
         },
         {
           images: [
@@ -656,6 +658,7 @@ export default {
             "story/0803.png",
             "story/0804.png",
             "story/0805.png",
+            "story/0806.png",
           ],
           title: "Church Family",
           desc: "JM and Vanny love weekends, most especially Sundays. They go to church together & spend quality time with their church family. The fun isn't confined on Sundays though - they've enjoyed serving in youth camps together, having fellowships & even just random trips with the gang.",
@@ -673,12 +676,12 @@ export default {
         {
           images: ["story/1001.png"],
           title: "Singapore",
-          desc: "On Oct 2019, Vanny got the opportunity to work in Singapore. Being the sweet & ever so supportive bf, JM went with Vanny to help her settle in. It was a weeklong trip that would have a bittersweet ending.",
+          desc: "On Oct 2019, Vanny got the opportunity to work in Singapore. Being the sweet & ever so supportive partner, JM went with Vanny to help her settle in. It was a weeklong trip that would have a bittersweet ending.",
         },
         {
           images: ["story/1101.png"],
           title: "Goodbye for now - Oct 2019",
-          desc: "Vanny celebrated her 26th birthday in Singapore with JM. It was spent grocery shopping and settling Vanny in her new place. This would also be the same day that JM goes home to Manila and Vanny will be left in SG to work.",
+          desc: "Vanny celebrated her 26th birthday in Singapore with JM. It was spent grocery shopping and settling Vanny in her new place. This would also be the same day that JM goes home to Manila and Vanny will be left in SG to work. ✈️",
         },
         {
           images: [

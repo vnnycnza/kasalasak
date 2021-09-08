@@ -511,7 +511,7 @@
                     w-20
                     items-center
                     justify-center
-                    bg-theme-300
+                    bg-theme-100
                   "
                 ></div>
               </div>
@@ -563,7 +563,7 @@
                     flex
                     items-center
                     justify-center
-                    bg-theme-100
+                    bg-theme-200
                   "
                 ></div>
               </div>
@@ -589,7 +589,7 @@
                     flex
                     items-center
                     justify-center
-                    bg-theme-200
+                    bg-theme-300
                   "
                 ></div>
               </div>
