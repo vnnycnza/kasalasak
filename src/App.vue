@@ -23,5 +23,12 @@ export default {
     MobileMenu,
     Footer,
   },
+  created(){
+    document.onreadystatechange = () => { //To load the app only after all libraries are loaded
+    if (document.readyState == "complete") { 
+        this.loadApp = true;
+    } 
+   }
+  }
 };
 </script>

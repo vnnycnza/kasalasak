@@ -605,9 +605,11 @@
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Principal Sponsors
                 </div>
-                <div class="text-base text-gray-600 font-body">
-                  Ninongs, kindly wear black suit with a yellow necktie.
-                  Ninangs, come in a gown or formal dress in yellow.
+                <div class="items-center justify-center text-base text-gray-600 font-body">
+                  <div class="flex w-1/2 mx-auto items-center">
+                   For the Ninongs, kindly wear black suit with a yellow necktie. Meanwhile,
+                   for the Ninangs, come in a gown or formal dress in yellow.
+                  </div>
                 </div>
               </div>
             </div>
@@ -617,9 +619,10 @@
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Groom's and Bride's Squad
                 </div>
-                <div class="text-base text-gray-600 mx-10 font-body">
-                  We'll let you know what we'd expect you to wear. Don't worry,
-                  you'll look good in it.
+                <div class="items-center justify-center text-base text-gray-600 font-body">
+                  <div class="flex w-1/2 mx-auto items-center">
+                   We'll let you know what we'd expect you to wear. Don't worry, you'll look good in it.
+                  </div>
                 </div>
               </div>
             </div>
@@ -629,9 +632,11 @@
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Guests
                 </div>
-                <div class="text-base text-gray-600 font-body">
+                <div class="items-center justify-center text-base text-gray-600 font-body">
+                  <div class="flex w-1/2 mx-auto items-center">
                   Dress comfortably but look good while you're at it. If you
                   can, we'd love to see you wearing our colors.
+                  </div>
                 </div>
               </div>
             </div>
@@ -698,7 +703,7 @@
             </svg>
           </div>
 
-          <!-- Attire -->
+          <!-- Note on Gifts -->
           <div class="flex item-center justify-center">
             <span class="text-3xl md:text-4xl text-gray-700 font-caveat">
               A Note on Gifts

@@ -416,6 +416,97 @@
               />
             </div>
           </div>
+
+          <!-- Link to Story -->
+          <div class="flex item-center justify-center py-2">
+            <router-link to="/story">
+              <button
+                class="
+                  bg-transparent
+                  hover:bg-theme-200
+                  text-theme-200
+                  font-body
+                  hover:text-theme-50
+                  py-2
+                  px-4
+                  border border-blue-500
+                  hover:border-transparent
+                  rounded
+                  uppercase
+                "
+              >
+                Look into our story
+              </button>
+            </router-link>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+     <section id="message-us" class="py-6">
+      <div class="container mx-auto my-auto item-center justify-center">
+        <div class="mx-4">
+          <!-- Icon -->
+          <div class="flex item-center justify-center py-4">
+            <svg id="message-us" enable-background="new 0 0 511.56 511.56" height="80" viewBox="0 0 511.56 511.56" width="80" xmlns="http://www.w3.org/2000/svg"><path d="m507.905 212.724c-20.567-121.266-126.175-212.628-252.054-212.628-191.458 0-312.753 201.72-228.813 369.846l-26.334 115.839c-2.983 13.122 6.999 25.656 20.478 25.656 3.344 0-6.188 1.942 120.506-26.856 95.018 47.435 214.496 32.422 294.948-48.03 60.05-60.051 84.942-143.261 71.269-223.827z" fill="#ffebd2"/><path d="m507.905 212.723c-1.65-9.728-9.852-16.995-19.707-17.463-9.872-.473-18.71 5.988-21.274 15.516-33.53 124.522-153.213 148.863-221.569 152.29-27.722 1.39-51.862 18.323-63.001 44.194-.22.51-.446 1.016-.682 1.524-21.629 46.551 11.687 100.237 63.177 102.419 50.835 2.157 99.358-10.44 144.274-33.9 34.134-17.828 62.385-44.691 81.7-77.687 34.891-59.604 47.714-124.23 37.082-186.893z" fill="#ffcdba"/><g fill="#e0b7a2"><path d="m362.518 192.1h-213.333c-11.598 0-21 9.402-21 21s9.402 21 21 21h213.334c11.598 0 21-9.402 21-21s-9.403-21-21.001-21z"/><path d="m309.184 277.433h-160c-11.598 0-21 9.402-21 21s9.402 21 21 21h160c11.598 0 21-9.402 21-21s-9.402-21-21-21z"/></g></svg>
+          </div>
+
+          <!-- Note on Gifts -->
+          <div class="flex item-center justify-center">
+            <span class="text-3xl md:text-4xl text-gray-700 font-caveat">
+              We'd love to hear from you!
+            </span>
+          </div>
+
+          <!-- HR -->
+          <hr
+            class="border-gray text-center text-2xl mt-2"
+            style="--bg: white; --p: 0 10px; --trans-x: -50%; --trans-y: -50%"
+          />
+
+          <!-- Message -->
+          <div
+            class="flex-col item-center justify-center items-center text-center"
+          >
+            <div class="my-3 px-6 py-4 w-full overflow-hidden">
+              <div class="flex-1 space-y-1">
+                <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
+                  Drop us a message
+                </div>
+                <div class="items-center justify-center text-base text-gray-600 font-body">
+                  <div class="flex w-1/2 mx-auto items-center">
+                    While we really wanted to celebrate our union with everyone dear, we are limited by the pandemic.
+                    Express your intent to attend by leaving us a message. Or, you can just drop a message regardless. 🤪
+                  </div>
+                </div>
+                
+                <!-- Link to Story -->
+                <div class="flex item-center justify-center mt-6 py-4">
+                  <router-link to="/rsvp">
+                    <button
+                      class="
+                        bg-transparent
+                        hover:bg-theme-200
+                        text-theme-200
+                        font-body
+                        hover:text-theme-50
+                        py-2
+                        px-4
+                        border border-blue-500
+                        hover:border-transparent
+                        rounded
+                        uppercase
+                      "
+                    >
+                      Contact Us
+                    </button>
+                  </router-link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -441,12 +532,12 @@ export default {
         {
           images: ["story/groom1.jpg"],
           title: "The Groom",
-          desc: "I will stand by you even when we fall. I will be the rock that holds you up. And lifts you high so you stand tall",
+          desc: "I will stand by you even when we fall. I will be the rock that holds you up. And lifts you high so you stand tall.",
         },
         {
           images: ["story/bride1.jpg"],
           title: "The Bride",
-          desc: "I won't let you go. No one can take your place. Oh, a couple fights and lonely nights. Don't make it right to let it go to waste",
+          desc: "I won't let you go. No one can take your place. Oh, a couple fights and lonely nights. Don't make it right to let it go to waste.",
         },
       ],
     };

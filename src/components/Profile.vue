@@ -1,13 +1,13 @@
 <template>
   <div class="flex justify-center items-center text-center">
-    <div class="max-w-md py-6 my-4">
+    <div class="max-w-md pt-4 my-4">
       <div class="relative hover:shadow-xl transition duration-500 rounded-lg">
-        <div class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap justify-center items-center">
           <div class="px-4">
             <img
               :src="require(`../assets/${selectedImage}`)"
               alt="..."
-              class="shadow rounded-full h-full w-3/4 align-middle border-none"
+              class="mx-auto shadow rounded-full h-full w-3/4 border-none"
             />
           </div>
         </div>
