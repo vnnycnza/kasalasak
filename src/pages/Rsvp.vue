@@ -62,7 +62,7 @@
             font-caveat
           "
         >
-          👋🏼 Hey there, don't be a stranger
+          Hey there, don't be a stranger...
         </span>
       </div>
 

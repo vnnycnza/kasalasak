@@ -368,6 +368,19 @@
                           >Click here to RSVP</router-link
                         >
                       </div>
+                      <div class="text-xs text-gray-700 font-body -mx-1">
+                        Alternatively, feel free to contact us
+                      </div>
+                      <div
+                        class="
+                          text-xs text-gray-700
+                          font-body
+                          -mx-1
+                          tracking-tight
+                        "
+                      >
+                        Vanny (+63 921 736 8988) · JM (+63 908 888 8469)
+                      </div>
                     </div>
                   </div>
                 </div>
