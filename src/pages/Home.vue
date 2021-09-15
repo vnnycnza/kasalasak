@@ -6,12 +6,12 @@
       </div>
     </section>
 
-    <section id="countdown" class="py-6">
+    <section id="countdown" class="py-4">
       <div class="container mx-auto my-auto item-center justify-center">
         <div class="mx-4 my-4">
-          <div class="flex item-center justify-center py-4 mt-8">
+          <div class="flex item-center justify-center py-4 mt-4">
             <svg
-              id="Layer_1"
+              id="calendar"
               enable-background="new 0 0 512 512"
               height="80"
               viewBox="0 0 512 512"
