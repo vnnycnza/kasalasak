@@ -625,7 +625,7 @@
             <div class="my-3 px-2 py-3 w-full overflow-hidden">
               <div class="flex-1 space-y-1 px-4">
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
-                  Groom's and Bride's Squad
+                  Entourage
                 </div>
                 <div
                   class="
@@ -636,8 +636,8 @@
                   "
                 >
                   <div class="flex w-1/2 mx-auto items-center">
-                    We'll let you know what we'd expect you to wear. Don't
-                    worry, you'll look good in it.
+                    Gentlemen, come in a suit with blue necktie. Ladies, wear a
+                    dress in our shades of blue.
                   </div>
                 </div>
               </div>
