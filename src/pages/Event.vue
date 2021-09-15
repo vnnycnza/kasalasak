@@ -605,10 +605,18 @@
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Principal Sponsors
                 </div>
-                <div class="items-center justify-center text-base text-gray-600 font-body">
+                <div
+                  class="
+                    items-center
+                    justify-center
+                    text-base text-gray-600
+                    font-body
+                  "
+                >
                   <div class="flex w-1/2 mx-auto items-center">
-                   For the Ninongs, kindly wear black suit with a yellow necktie. Meanwhile,
-                   for the Ninangs, come in a gown or formal dress in yellow.
+                    For the Ninongs, kindly wear black suit with a yellow
+                    necktie. Meanwhile, for the Ninangs, come in a gown or
+                    formal dress in yellow.
                   </div>
                 </div>
               </div>
@@ -619,9 +627,17 @@
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Groom's and Bride's Squad
                 </div>
-                <div class="items-center justify-center text-base text-gray-600 font-body">
+                <div
+                  class="
+                    items-center
+                    justify-center
+                    text-base text-gray-600
+                    font-body
+                  "
+                >
                   <div class="flex w-1/2 mx-auto items-center">
-                   We'll let you know what we'd expect you to wear. Don't worry, you'll look good in it.
+                    We'll let you know what we'd expect you to wear. Don't
+                    worry, you'll look good in it.
                   </div>
                 </div>
               </div>
@@ -632,10 +648,17 @@
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Guests
                 </div>
-                <div class="items-center justify-center text-base text-gray-600 font-body">
+                <div
+                  class="
+                    items-center
+                    justify-center
+                    text-base text-gray-600
+                    font-body
+                  "
+                >
                   <div class="flex w-1/2 mx-auto items-center">
-                  Dress comfortably but look good while you're at it. If you
-                  can, we'd love to see you wearing our colors.
+                    Dress comfortably but look good while you're at it. If you
+                    can, we'd love to see you wearing our colors.
                   </div>
                 </div>
               </div>
