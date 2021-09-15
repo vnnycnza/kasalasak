@@ -181,7 +181,7 @@
                           target="_blank"
                           href="https://www.waze.com/en/live-map/directions/the-emerald-events-place-marigman-rd-1-antipolo?place=w.79429778.794035633.18752926"
                         >
-                          Waze ·
+                          Waze |
                         </a>
                         <a
                           class="focus:underline hover:text-theme-300"
@@ -368,14 +368,14 @@
                           >Click here to RSVP</router-link
                         >
                       </div>
-                      <div class="text-xs text-gray-700 font-body -mx-1">
+                      <div class="text-xs text-gray-700 font-body -mx-2">
                         Alternatively, feel free to contact us
                       </div>
                       <div
                         class="
                           text-xs text-gray-700
                           font-body
-                          -mx-1
+                          -mx-2
                           tracking-tight
                         "
                       >
