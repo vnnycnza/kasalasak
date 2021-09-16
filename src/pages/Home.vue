@@ -606,12 +606,12 @@ export default {
         {
           images: ["story/groom1.jpg"],
           title: "The Groom",
-          desc: "I will stand by you even when we fall. I will be the rock that holds you up. And lifts you high so you stand tall.",
+          desc: "JM is a born rockstar. He knows how to play all sorts of instruments but he's the best at drums and guitar. &#x1F941; &#x1F3B8; He loves playing video games when no one else is awake, and spends most of his free time watching basketball highlights. &#x1F3C0; He's also a passionate Instructional Design Specialist. That's his job title but I'm honestly not sure what that means, I just know he is passionate about it. &#x1F525;",
         },
         {
           images: ["story/bride1.jpg"],
           title: "The Bride",
-          desc: "I won't let you go. No one can take your place. Oh, a couple fights and lonely nights. Don't make it right to let it go to waste.",
+          desc: "Vanny is a software engineer by profession, backed with years of experience, but still copies code from Stack Overflow. &#x1F605; Don't be fooled by her height, she's one strong, independent woman. She's analytical and logical when it comes to her decision making, always taking calculated measures. &#x1F4C8; You'd catch her re-watching Friends, Brooklyn 99, or Hospital Playlist in between watching Hell's Kitchen or Masterchef. &#x1F4FA;",
         },
       ],
     };
