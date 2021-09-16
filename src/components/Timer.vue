@@ -24,7 +24,7 @@
             >
             </component>
             <div class="font-body text-base">
-              <p slot="legend-caption">days</p>
+              <p slot="legend-caption" v-html="daysCaption"></p>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
             >
             </component>
             <div class="font-body text-base">
-              <p slot="legend-caption">hours</p>
+              <p slot="legend-caption" v-html="hoursCaption"></p>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
             >
             </component>
             <div class="font-body text-base">
-              <p slot="legend-caption">minutes</p>
+              <p slot="legend-caption" v-html="minutesCaption"></p>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
             >
             </component>
             <div class="font-body text-base">
-              <p slot="legend-caption">seconds</p>
+              <p slot="legend-caption" v-html="secondsCaption"></p>
             </div>
           </div>
         </div>
@@ -143,6 +143,10 @@ export default {
       distance: 0,
       countdown: null,
       weddingDate: new Date("01/16/2022"),
+      daysCaption: "days",
+      secondsCaption: "seconds",
+      minutesCaption: "minutes",
+      hoursCaption: "hours",
     };
   },
   computed: {
@@ -191,6 +195,11 @@ export default {
         this.minutes = minutes.toString();
         this.seconds = seconds.toString();
         this.distance = distance.toString();
+
+        this.daysCaption = (days > 1) ? "days" : "day";
+        this.hoursCaption = (hours > 1) ? "hours" : "hour";
+        this.minutesCaption = (minutes > 1) ? "minutes" : "minute";
+        this.secondsCaption = (seconds > 1) ? "seconds" : "second";
 
         // Stop
         if (this.distance < 0) {
