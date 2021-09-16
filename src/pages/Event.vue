@@ -368,7 +368,7 @@
                           >Click here to RSVP</router-link
                         >
                       </div>
-                      <div class="text-xs text-gray-700 font-body -mx-2">
+                      <div class="text-xs text-gray-700 font-body -mx-2 px-2">
                         Alternatively, feel free to contact us
                       </div>
                       <div
@@ -376,6 +376,7 @@
                           text-xs text-gray-700
                           font-body
                           -mx-2
+                          px-2
                           tracking-tight
                         "
                       >
@@ -672,6 +673,27 @@
                   <div class="flex w-1/2 mx-auto items-center">
                     Dress comfortably but look good while you're at it. If you
                     can, we'd love to see you wearing our colors.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="my-3 px-2 py-3 w-full overflow-hidden">
+              <div class="flex-1 space-y-1 px-4">
+                <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
+                  Safety
+                </div>
+                <div
+                  class="
+                    items-center
+                    justify-center
+                    text-base text-gray-600
+                    font-body
+                  "
+                >
+                  <div class="flex w-1/2 mx-auto items-center">
+                    We would require everyone to wear face masks, observe social
+                    distancing throughout the event and sanitize frequently.
                   </div>
                 </div>
               </div>

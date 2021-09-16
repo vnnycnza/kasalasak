@@ -74,7 +74,7 @@
               text-center
             "
           >
-            There's so much to tell, but here's our journey 🚗
+            There's so much to tell, but here's our journey &#x1f697;
           </span>
         </div>
       </section>
@@ -616,12 +616,12 @@ export default {
         {
           images: ["story/0301.png", "story/0302.png"],
           title: "First Date",
-          desc: "Feb 14 2014 was their first Valentines together. For JM, this was their first date. For Vanny, he was just asking her to grab dinner with her. 😂 The next day, JM went to a party organised by CS Dept which Vanny led & was a part of. It's probably when sparks started flying.",
+          desc: "Feb 14 2014 was their first Valentines together. For JM, this was their first date. For Vanny, he was just asking her to grab dinner with her. &#x1F602; The next day, JM went to a party organised by CS Dept which Vanny led & was a part of. It's probably when sparks started flying.",
         },
         {
           images: ["story/04.png"],
           title: "Make it official",
-          desc: "After some months of courting & dating, JM and Vanny became official as a couple on Aug 16, 2014. They went on a date before heading to UP CURSOR’s Anniversary Party. He was asked, on stage, if they are indeed officially together. Vanny wanted to keep it to themselves for a while but then they were cornered and had to announce it. 😂 #celebrity??",
+          desc: "After some months of courting & dating, JM and Vanny became official as a couple on Aug 16, 2014. They went on a date before heading to UP CURSOR’s Anniversary Party. He was asked, on stage, if they are indeed officially together. Vanny wanted to keep it to themselves for a while but then they were cornered and had to announce it. &#x1F602; #celebrity??",
         },
         {
           images: ["story/05.png"],
@@ -636,7 +636,7 @@ export default {
             "story/0604.png",
             "story/0605.png",
           ],
-          title: "Ginny 🐶",
+          title: "Ginny &#x1F436;",
           desc: "On Nov 2015, they became dog parents to their furry baby Ginny! It was in early 2016 that JM got custody of this cutie. Definitely a bundle of joy!",
         },
         {
@@ -649,7 +649,7 @@ export default {
             "story/0706.png",
           ],
           title: "Date Nights",
-          desc: "Time together is usually spent on staying in & watching random shows. Pre-pandemic, they would always go on dinner & movie dates. They also love seeing concerts & exploring cool places. JM is an awesome musician and there was a time when most of their dinner dates are gig nights. Definitely tiring but so fun and awesome. 🎸🥁",
+          desc: "Time together is usually spent on staying in & watching random shows. Pre-pandemic, they would always go on dinner & movie dates. They also love seeing concerts & exploring cool places. JM is an awesome musician and there was a time when most of their dinner dates are gig nights. Definitely tiring but so fun and awesome. &#x1F3B8;&#x1F941;",
         },
         {
           images: [
@@ -703,7 +703,7 @@ export default {
             "story/1405.png",
           ],
           title: "We got engaged - 07.16.2022",
-          desc: 'A month before their 7th anniversary, JM and Vanny, together with their most supportive friends, went to Tagaytay for a relaxing weekend staycation. Surprisingly, with their friends as the "kakuntsaba", JM asked Vanny to marry her. Of course, she said yes. 💍',
+          desc: "A month before their 7th anniversary, JM and Vanny, together with their most supportive friends, went to Tagaytay for a relaxing weekend staycation. With the help of their friends, JM pulled off a surprise and asked Vanny to marry her. Of course, she said yes. &#x1F48D;",
         },
       ],
     };

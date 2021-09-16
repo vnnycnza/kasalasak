@@ -76,7 +76,7 @@
                 font-caveat
               "
             >
-              We're getting married! &nbsp;🥳
+              We're getting married! &nbsp;&#x1F973;
             </span>
           </div>
           <div class="flex item-center justify-center pt-2 pb-6">
@@ -195,7 +195,7 @@
                         target="_blank"
                         href="https://g.page/Emeraldeventsplace?share"
                       >
-                        Google
+                        &nbsp; Google
                       </a>
                     </div>
                   </div>
@@ -507,11 +507,11 @@
                     font-body
                   "
                 >
-                  <div class="flex w-1/4 md:w-1/2 mx-auto items-center">
+                  <div class="flex w-1/2 mx-auto items-center">
                     While we really wanted to celebrate our union with everyone
                     dear, health and safety is our priority. Express your intent
                     to attend by leaving us a message. Or, you can just drop a
-                    message regardless. 🤪
+                    message regardless. &#x1F92A;
                   </div>
                 </div>
 

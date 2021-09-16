@@ -77,7 +77,7 @@
             text-center
           "
         >
-          Leave us a message. We'd appreciate it 💙
+          Leave us a message. We'd appreciate it &#x1F499;
         </span>
       </div>
 

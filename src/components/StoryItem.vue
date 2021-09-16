@@ -28,10 +28,12 @@
             text-theme-200
             cursor-pointer
           "
-        >
-          {{ title }}
-        </h1>
-        <p class="text-xs xl:text-base font-body text-gray-700">{{ desc }}</p>
+          v-html="title"
+        ></h1>
+        <p
+          class="text-xs xl:text-base font-body text-gray-700"
+          v-html="desc"
+        ></p>
       </div>
     </div>
   </div>

@@ -81,7 +81,7 @@
             >
           </div>
           <div class="text-xs">
-            website made with 💙
+            website made with &#x1F499;
             <a
               href="https://github.com/vnnycnza/kasalasak"
               target="_blank"
