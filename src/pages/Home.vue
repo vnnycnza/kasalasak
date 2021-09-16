@@ -94,7 +94,7 @@
             </span>
           </div>
           <Timer />
-          <div class="flex item-center justify-center py-4 px-4">
+          <div class="flex item-center justify-center py-4 px-2">
             <div class="flex flex-wrap -mx-2 overflow-hidden mx-auto">
               <div
                 class="my-2 px-6 w-full sm:w-1/2 md:w-full lg:w-1/2 xl:w-1/2"
@@ -272,26 +272,57 @@
               </div>
             </div>
           </div>
-          <div class="flex item-center justify-center py-2">
-            <router-link to="/event">
-              <button
-                class="
-                  bg-transparent
-                  hover:bg-theme-200
-                  text-theme-200
-                  font-body
-                  hover:text-theme-50
-                  py-2
-                  px-4
-                  border border-blue-500
-                  hover:border-transparent
-                  rounded
-                  uppercase
-                "
-              >
-                View full details
-              </button>
-            </router-link>
+          <div class="flex items-center justify-center py-2">
+            <div class="flex flex-wrap -mx-2 overflow-hidden mx-auto text-center">
+              <div class="my-2 px-6 w-3/4 mx-auto">
+                <router-link to="/event">
+                  <button
+                    class="
+                      text-xs
+                      xl:text-base
+                      bg-transparent
+                      hover:bg-theme-200
+                      text-theme-200
+                      font-body
+                      hover:text-theme-50
+                      py-2
+                      px-4
+                      border border-blue-500
+                      hover:border-transparent
+                      rounded
+                      uppercase
+                      justify-center
+                      w-full
+                    "
+                  >
+                    View Full Details
+                  </button>
+                </router-link>
+              </div>
+              <div class="my-2 px-6 w-full">
+                <router-link to="/rsvp">
+                  <button
+                    class="
+                      text-xs
+                      xl:text-base
+                      bg-transparent
+                      hover:bg-theme-200
+                      text-theme-200
+                      font-body
+                      hover:text-theme-50
+                      py-2
+                      px-4
+                      border border-blue-500
+                      hover:border-transparent
+                      rounded
+                      uppercase
+                    "
+                  >
+                    RSVP Here
+                  </button>
+                </router-link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -418,10 +449,12 @@
           </div>
 
           <!-- Link to Story -->
-          <div class="flex item-center justify-center py-2">
+          <div class="flex item-center justify-center mb-6">
             <router-link to="/story">
               <button
                 class="
+                  text-xs
+                  xl:text-base
                   bg-transparent
                   hover:bg-theme-200
                   text-theme-200
@@ -443,7 +476,7 @@
       </div>
     </section>
 
-    <section id="message-us" class="py-6">
+    <section id="message-us" class="pt-6 pb-2">
       <div class="container mx-auto my-auto item-center justify-center">
         <div class="mx-4">
           <!-- Icon -->
@@ -515,11 +548,13 @@
                   </div>
                 </div>
 
-                <!-- Link to Story -->
-                <div class="flex item-center justify-center mt-6 py-4">
+                <!-- Link to Rsvp -->
+                <div class="flex item-center justify-center py-4 mt-6">
                   <router-link to="/rsvp">
                     <button
                       class="
+                        text-xs
+                        xl:text-base
                         bg-transparent
                         hover:bg-theme-200
                         text-theme-200
@@ -543,6 +578,10 @@
         </div>
       </div>
     </section>
+
+    <section id="back-to-top justify-center">
+      <Scroll />
+    </section>
   </div>
 </template>
 
@@ -551,6 +590,7 @@ import { mapGetters } from "vuex";
 import Timer from "../components/Timer";
 import Carousel from "../components/Carousel";
 import Profile from "../components/Profile";
+import Scroll from "../components/Scroll";
 
 export default {
   name: "Home",
@@ -558,6 +598,7 @@ export default {
     Timer,
     Carousel,
     Profile,
+    Scroll
   },
   data() {
     return {

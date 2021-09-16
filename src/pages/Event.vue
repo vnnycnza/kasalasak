@@ -806,17 +806,48 @@
         </div>
       </div>
     </section>
+
+    <section id="back-to-top justify-center">
+      <Scroll />
+    </section>
+
+    <!-- Back to Home -->
+    <div class="flex item-center justify-center py-2">
+      <router-link to="/">
+        <button
+          class="
+            bg-transparent
+            text-xs
+            xl:text-base
+            hover:bg-theme-200
+            text-theme-200
+            font-body
+            hover:text-theme-50
+            py-2
+            px-4
+            border border-blue-500
+            hover:border-transparent
+            rounded
+            uppercase
+          "
+        >
+          Back to Home
+        </button>
+      </router-link>
+    </div>
   </div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
 import Timer from "../components/Timer";
+import Scroll from "../components/Scroll";
 
 export default {
   name: "Event",
   components: {
     Timer,
+    Scroll
   },
   computed: {
     ...mapGetters({

@@ -587,6 +587,38 @@
           </div>
         </div>
       </div>
+
+      <!-- Scroll Up -->
+      <section id="back-to-top">
+        <div class="flex item-center justify-center pt-4">
+          <Scroll />
+        </div>
+      </section>
+
+      <!-- Back to Home -->
+      <div class="flex item-center justify-center py-2">
+        <router-link to="/">
+          <button
+            class="
+              bg-transparent
+              text-xs
+              xl:text-base
+              hover:bg-theme-200
+              text-theme-200
+              font-body
+              hover:text-theme-50
+              py-2
+              px-4
+              border border-blue-500
+              hover:border-transparent
+              rounded
+              uppercase
+            "
+          >
+            Back to Home
+          </button>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -594,11 +626,13 @@
 <script>
 import { mapGetters } from "vuex";
 import StoryItem from "../components/StoryItem";
+import Scroll from "../components/Scroll";
 
 export default {
   name: "Story",
   components: {
     StoryItem,
+    Scroll
   },
   data() {
     return {
@@ -699,7 +733,6 @@ export default {
             "story/1401.png",
             "story/1402.png",
             "story/1403.png",
-            "story/1404.png",
             "story/1405.png",
           ],
           title: "We got engaged - 07.16.2022",
