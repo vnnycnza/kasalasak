@@ -639,28 +639,28 @@ export default {
       content: [
         {
           images: ["story/01.png"],
-          title: "Orgmates",
-          desc: "They first met when Vanny applied as an org member in UP CURSOR in 2011 where JM is already a member of. They became orgmates and had quite a number of common friends & college experiences. #cursorsexy",
+          title: "2011 - Orgmates",
+          desc: "We first met when Vanny applied as an org member in UP CURSOR in 2011 where I was already a member of. We became orgmates and had quite a number of common friends & college experiences. #cursorsexy",
         },
         {
           images: ["story/02.png"],
-          title: "UP Fair 2014",
-          desc: "Few years later, JM had a crush on Vanny and he started hanging out with her more. One of the most memorable ones would be UP Fair 2014 where Vanny went with JM to watch him perform.",
+          title: "02.2014 - UP Fair 2014",
+          desc: "Few years later, JM had a crush on me and he started hanging out with me more. One of the most memorable ones would be UP Fair 2014 where I went with JM to watch him perform.",
         },
         {
           images: ["story/0301.png", "story/0302.png"],
-          title: "First Date",
-          desc: "Feb 14 2014 was their first Valentines together. For JM, this was their first date. For Vanny, he was just asking her to grab dinner with her. &#x1F602; The next day, JM went to a party organised by CS Dept which Vanny led & was a part of. It's probably when sparks started flying.",
+          title: "02.14.2014 - First Date",
+          desc: "Feb 14 2014 was our first Valentines together. For me, this was our first date. For Vanny, I was just asking her to grab dinner with me. &#x1F602; The next day, I went to a party organised by CS Dept which Vanny led & was a part of. It's probably when sparks started flying.",
         },
         {
           images: ["story/04.png"],
-          title: "Make it official",
-          desc: "After some months of courting & dating, JM and Vanny became official as a couple on Aug 16, 2014. They went on a date before heading to UP CURSOR’s Anniversary Party. He was asked, on stage, if they are indeed officially together. Vanny wanted to keep it to themselves for a while but then they were cornered and had to announce it. &#x1F602; #celebrity??",
+          title: "08.16.2014 - Make it official",
+          desc: "After some months of courting & dating, we became official as a couple on Aug 16, 2014. We went on a date before heading to UP CURSOR’s Anniversary Party. He was asked, on stage, if we are indeed officially together. I wanted to keep it to ourselves for a while but then we were cornered and had to announce it. &#x1F602; #celebrity??",
         },
         {
           images: ["story/05.png"],
-          title: "Road trips",
-          desc: "Tagaytay has a special place in their hearts because of this core memory - their first out of town trip. This is just a start for all dinner dates, museum tours & random trips they will have.",
+          title: "01.16.2015 - Road trips",
+          desc: "Tagaytay has a special place in our hearts because of this core memory - our first out of town trip. This is just a start for all dinner dates, museum tours & random trips we will have.",
         },
         {
           images: [
@@ -670,8 +670,8 @@ export default {
             "story/0604.png",
             "story/0605.png",
           ],
-          title: "Ginny &#x1F436;",
-          desc: "On Nov 2015, they became dog parents to their furry baby Ginny! It was in early 2016 that JM got custody of this cutie. Definitely a bundle of joy!",
+          title: "11.2015 - Ginny &#x1F436;",
+          desc: "On Nov 2015, we became dog parents to our furry baby Ginny! It was in early 2016 when JM brought Ginny home. Definitely a bundle of joy!",
         },
         {
           images: [
@@ -682,8 +682,8 @@ export default {
             "story/0705.png",
             "story/0706.png",
           ],
-          title: "Date Nights",
-          desc: "Time together is usually spent on staying in & watching random shows. Pre-pandemic, they would always go on dinner & movie dates. They also love seeing concerts & exploring cool places. JM is an awesome musician and there was a time when most of their dinner dates are gig nights. Definitely tiring but so fun and awesome. &#x1F3B8;&#x1F941;",
+          title: "2016 - Date Nights",
+          desc: "Time together is usually spent on staying in & watching random shows. Pre-pandemic, we would always go on dinner & movie dates. We also love seeing concerts & exploring cool places. JM is an awesome musician and there was a time when most of our dinner dates are gig nights. Definitely tiring but so fun and awesome. &#x1F3B8;&#x1F941;",
         },
         {
           images: [
@@ -694,23 +694,23 @@ export default {
             "story/0805.png",
             "story/0806.png",
           ],
-          title: "Church Family",
-          desc: "JM and Vanny love weekends, most especially Sundays. They go to church together & spend quality time with their church family. The fun isn't confined on Sundays though - they've enjoyed serving in youth camps together, having fellowships & even just random trips with the gang.",
+          title: "2017 - Church Family",
+          desc: "We love weekends, most especially Sundays. We go to church together & spend quality time with our church family. The fun isn't confined on Sundays though - we've enjoyed serving in youth camps together, having fellowships & even just random trips with the gang.",
         },
         {
           images: ["story/0901.png", "story/0902.png", "story/0903.png"],
-          title: "Love for travel",
-          desc: "As home buddies, JM and Vanny only discovered their love for travel in 2018. Since then, they would set aside weeklong leaves and invite their closest friends to have much awaited vacation in beautiful & relaxing places.",
+          title: "2018 - Love for travel",
+          desc: "As home buddies, we only discovered our love for travel in 2018. Since then, we would set aside weeklong leaves and invite our closest friends to have much awaited vacation in beautiful & relaxing places.",
         },
         {
           images: ["story/1001.png"],
-          title: "Singapore",
-          desc: "On Oct 2019, Vanny got the opportunity to work in Singapore. Being the sweet & ever so supportive partner, JM went with Vanny to help her settle in. It was a weeklong trip that would have a bittersweet ending.",
+          title: "10.04.2019 - Singapore",
+          desc: "On Oct 2019, I got the opportunity to work in Singapore. Being the sweet & ever so supportive partner, JM went with me to help me settle in. It was a weeklong trip that would have a bittersweet ending.",
         },
         {
           images: ["story/1101.png"],
-          title: "Goodbye for now - Oct 2019",
-          desc: "Vanny celebrated her 26th birthday in Singapore with JM. It was spent grocery shopping and settling Vanny in her new place. This would also be the same day that JM goes home to Manila and Vanny will be left in SG to work. ✈️",
+          title: "10.12.2019 - Goodbye for now",
+          desc: "Vanny celebrated her 26th birthday in Singapore with me. It was spent grocery shopping and settling her in her new place. This would also be the same day that I would go fly back to Manila and she will be left in Singapore to work. ✈️",
         },
         {
           images: [
@@ -720,13 +720,13 @@ export default {
             "story/1204.png",
             "story/1205.png",
           ],
-          title: "So near yet so far",
-          desc: "JM and Vanny spent almost a year and half apart. Add in the unexpected pandemic, it was indeed a recipe for disaster. It was probably the most difficult experience but by God's love & grace, this only made the two stronger.",
+          title: "2020 - So near yet so far",
+          desc: "We spent almost a year and half apart. Add in the unexpected pandemic, it was indeed a recipe for disaster. It was probably the most difficult experience but by God's love & grace, this only made us stronger.",
         },
         {
           images: ["story/1301.png", "story/1302.png"],
-          title: "Reunited - 05.2021",
-          desc: "God is faithful and His timing is always perfect. By His grace, Vanny was able to return back home and is reunited with JM.",
+          title: "05.2021 - Reunited",
+          desc: "God is faithful and His timing is always perfect. By His grace, I was able to return back home and is reunited with JM.",
         },
         {
           images: [
@@ -735,8 +735,8 @@ export default {
             "story/1403.png",
             "story/1405.png",
           ],
-          title: "We got engaged - 07.16.2022",
-          desc: "A month before their 7th anniversary, JM and Vanny, together with their most supportive friends, went to Tagaytay for a relaxing weekend staycation. With the help of their friends, JM pulled off a surprise and asked Vanny to marry her. Of course, she said yes. &#x1F48D;",
+          title: "07.16.2022 - We got engaged",
+          desc: "A month before our 7th anniversary, we went to Tagaytay for a relaxing weekend staycation. With the help of our friends, I pulled off a surprise and asked Vanny to marry me. Of course, she said yes. &#x1F48D;",
         },
       ],
     };
