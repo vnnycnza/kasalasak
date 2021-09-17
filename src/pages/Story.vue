@@ -736,7 +736,7 @@ export default {
             "story/1405.png",
           ],
           title: "07.16.2022 - We got engaged",
-          desc: "A month before our 7th anniversary, we went to Tagaytay for a relaxing weekend staycation. With the help of our friends, I pulled off a surprise and asked Vanny to marry me. Of course, she said yes. &#x1F48D;",
+          desc: "A month before our 7th anniversary, we went to Tagaytay for a relaxing weekend staycation. With the help of our friends, I pulled off a surprise and asked Vanny to marry me. Thankfully, she said yes. &#x1F48D;",
         },
       ],
     };

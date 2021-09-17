@@ -17,7 +17,7 @@
           >
             {{ title }}
           </h1>
-          <p class="text-base text-gray-600 tracking-light mx-4 font-body" v-html="desc"></p>
+          <p class="text-xs md:text-base text-gray-600 tracking-light mx-4 font-body" v-html="desc"></p>
         </div>
       </div>
     </div>
