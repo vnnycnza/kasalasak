@@ -632,7 +632,7 @@ export default {
   name: "Story",
   components: {
     StoryItem,
-    Scroll
+    Scroll,
   },
   data() {
     return {

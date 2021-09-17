@@ -847,7 +847,7 @@ export default {
   name: "Event",
   components: {
     Timer,
-    Scroll
+    Scroll,
   },
   computed: {
     ...mapGetters({

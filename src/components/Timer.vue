@@ -196,10 +196,10 @@ export default {
         this.seconds = seconds.toString();
         this.distance = distance.toString();
 
-        this.daysCaption = (days > 1) ? "days" : "day";
-        this.hoursCaption = (hours > 1) ? "hours" : "hour";
-        this.minutesCaption = (minutes > 1) ? "minutes" : "minute";
-        this.secondsCaption = (seconds > 1) ? "seconds" : "second";
+        this.daysCaption = days > 1 ? "days" : "day";
+        this.hoursCaption = hours > 1 ? "hours" : "hour";
+        this.minutesCaption = minutes > 1 ? "minutes" : "minute";
+        this.secondsCaption = seconds > 1 ? "seconds" : "second";
 
         // Stop
         if (this.distance < 0) {

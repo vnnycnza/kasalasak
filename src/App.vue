@@ -27,7 +27,7 @@ export default {
     return {
       scTimer: 0,
       scY: 0,
-    }
+    };
   },
   created() {
     document.onreadystatechange = () => {
@@ -38,7 +38,7 @@ export default {
     };
   },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   },
   methods: {
     handleScroll: function () {
@@ -52,7 +52,7 @@ export default {
     toTop: function () {
       window.scrollTo({
         top: 0,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     },
   },

@@ -273,7 +273,9 @@
             </div>
           </div>
           <div class="flex items-center justify-center py-2">
-            <div class="flex flex-wrap -mx-2 overflow-hidden mx-auto text-center">
+            <div
+              class="flex flex-wrap -mx-2 overflow-hidden mx-auto text-center"
+            >
               <div class="my-2 px-6 w-3/4 mx-auto">
                 <router-link to="/event">
                   <button
@@ -534,9 +536,7 @@
                   class="
                     items-center
                     justify-center
-                    text-sm
-                    md:text-base
-                    text-gray-600
+                    text-base text-gray-600
                     font-body
                   "
                 >
@@ -598,7 +598,7 @@ export default {
     Timer,
     Carousel,
     Profile,
-    Scroll
+    Scroll,
   },
   data() {
     return {
