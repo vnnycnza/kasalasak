@@ -369,7 +369,7 @@
                         >
                       </div>
                       <div class="text-xs text-gray-700 font-body -mx-2 px-2">
-                        Alternatively, feel free to contact us
+                        Get in touch with our coordinator:
                       </div>
                       <div
                         class="
@@ -380,7 +380,7 @@
                           tracking-tight
                         "
                       >
-                        Vanny (+63 921 736 8988) · JM (+63 908 888 8469)
+                        Kam Tolentino of TWP (+63 917 815 3887)
                       </div>
                     </div>
                   </div>

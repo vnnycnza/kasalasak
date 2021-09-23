@@ -22,6 +22,7 @@
         <h1
           class="
             mt-2
+            mb-2
             text-lg
             xl:text-2xl
             font-caveat
@@ -30,10 +31,21 @@
           "
           v-html="title"
         ></h1>
-        <p
-          class="text-xs xl:text-base font-body text-gray-700"
-          v-html="desc"
-        ></p>
+        <div class="flex">
+          <div class="flex px-2">
+            <img
+              :src="require(`../assets/${speaker}`)"
+              class="h-8 w-8 rounded-full ring-2 ring-white"
+              alt=""
+            />
+          </div>
+          <div class="flex-1">
+            <p
+              class="text-xs xl:text-base font-body text-gray-600 leading-tight"
+              v-html="desc"
+            ></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -60,6 +72,10 @@ export default {
       type: String,
       default:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in consectetur ante, sit amet mattis velit. Donec hendrerit lorem eu hendrerit commodo.",
+    },
+    speaker: {
+      type: String,
+      default: "story/groom1.jpg",
     },
   },
   computed: {
