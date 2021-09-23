@@ -83,13 +83,13 @@
 
       <section id="form" class="flex item-center justify-center pb-6 mt-8 mx-6">
         <form
-          name="contact"
+          name="rsvp"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           class="w-full max-w-lg"
         >
-          <input type="hidden" name="form-name" value="RSVP" />
+          <input type="hidden" name="form-name" value="rsvp" />
           <input
             type="hidden"
             name="subject"
