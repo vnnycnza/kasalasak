@@ -2,7 +2,7 @@
 In pursuit of learning and exploring, I created our wedding website. `kasalasak` is a word play on the Filipino translation of `wedding`. Named it as such coz it's a word that reads `kasal` the same way backward or forward -- a palindrome.
 
 ## Deployed
-Here: https://jmandvanny.netlify.app
+Here: https://www.jmandvanny.com
 
 ## Tech Stack
 
