@@ -264,7 +264,7 @@
                       Wedding Details
                     </div>
                     <div class="text-xs text-gray-700 font-body">
-                      Ceremony at 3pm • Reception at 5pm
+                      Ceremony at 3pm • Reception follows
                     </div>
                     <div class="text-xs text-gray-700 font-body"></div>
                   </div>

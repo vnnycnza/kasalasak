@@ -238,72 +238,7 @@
                         Ceremony starts at 3pm
                       </div>
                       <div class="text-xs text-gray-700 font-body">
-                        Photos & cocktails follow
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Reception -->
-                  <div class="flex space-x-4 py-2">
-                    <div class="w-12">
-                      <svg
-                        id="Layer_1"
-                        enable-background="new 0 0 512.102 512.102"
-                        height="50"
-                        viewBox="0 0 512.102 512.102"
-                        width="50"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g>
-                          <path
-                            d="m256.051 208.102c-8.836 0-16-7.164-16-16v-40c0-8.836 7.164-16 16-16s16 7.164 16 16v40c0 8.837-7.163 16-16 16z"
-                            fill="#cecccc"
-                          />
-                          <path
-                            d="m416.051 192.102v152c0 8.84-7.16 16-16 16h-288c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h288c8.84 0 16 7.16 16 16z"
-                            fill="#e2e0e0"
-                          />
-                          <path
-                            d="m416.051 304.102v40c0 8.84-7.16 16-16 16h-288c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h32v8c0 66.27 53.73 120 120 120z"
-                            fill="#cecccc"
-                          />
-                          <path
-                            d="m464.051 344.102v152c0 8.84-7.16 16-16 16h-384c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h384c8.84 0 16 7.16 16 16z"
-                            fill="#e2e0e0"
-                          />
-                          <path
-                            d="m464.051 472.102v24c0 8.84-7.16 16-16 16h-384c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h24v4c0 77.32 62.68 140 140 140z"
-                            fill="#cecccc"
-                          />
-                          <path
-                            d="m400.051 176.102c-8.836 0-16 7.164-16 16 0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 20.534 6.129 40.016 17.259 54.855 25.409 33.879 69.685 33.687 94.741-1.76 25.308 35.803 70.627 35.89 96 0 25.035 35.411 69.302 35.679 94.741 1.76 11.129-14.839 17.259-34.321 17.259-54.855 0-8.836-7.163-16-16-16z"
-                            fill="#f79caf"
-                          />
-                          <path
-                            d="m448.051 328.102c-8.836 0-16 7.164-16 16 0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 20.534 6.129 40.016 17.259 54.855 25.415 33.887 69.687 33.676 94.741-1.76 25.316 35.807 70.628 35.885 96 0 25.327 35.817 70.626 35.883 96 0 25.039 35.409 69.301 35.681 94.741 1.76 11.129-14.839 17.259-34.321 17.259-54.855 0-8.836-7.163-16-16-16z"
-                            fill="#f79caf"
-                          />
-                          <path
-                            d="m496.051 512.102h-480c-8.836 0-16-7.164-16-16s7.164-16 16-16h480c8.836 0 16 7.164 16 16s-7.163 16-16 16z"
-                            fill="#a18b76"
-                          />
-                          <path
-                            d="m355.501 62.462c0 13.87-4 26.48-10.35 37.75-23.7 42.05-80.06 65.48-83.06 66.71-3.771 1.536-8.125 1.61-12.08 0-3.81-1.56-93.41-38.82-93.41-104.46 0-50.068 57.442-80.108 99.45-51.13 41.388-28.55 99.45.455 99.45 51.13z"
-                            fill="#f79caf"
-                          />
-                          <path
-                            d="m344.161 101.922c-24.24 40.97-79.11 63.79-82.07 65-3.77 1.54-8.13 1.61-12.08 0-3.81-1.56-93.41-38.82-93.41-104.46 0-24.21 13.43-43.74 32.05-54.17-2.6 6.78-4.05 14.22-4.05 22.17 0 65.64 89.6 102.9 93.41 104.46 3.95 1.61 8.31 1.54 12.08 0 2.07-.85 29.47-12.24 54.07-33z"
-                            fill="#e3889b"
-                          />
-                        </g>
-                      </svg>
-                    </div>
-                    <div class="flex-1 space-y-1">
-                      <div class="text-lg text-left text-blue-800 font-body">
-                        Reception at 5pm
-                      </div>
-                      <div class="text-xs text-gray-700 font-body">
-                        Dinner Party
+                        Photos & reception follows
                       </div>
                     </div>
                   </div>
@@ -617,28 +552,6 @@
             <div class="my-3 px-2 py-3 w-full overflow-hidden">
               <div class="flex-1 space-y-1 px-4">
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
-                  Principal Sponsors
-                </div>
-                <div
-                  class="
-                    items-center
-                    justify-center
-                    text-base text-gray-600
-                    font-body
-                  "
-                >
-                  <div class="flex w-1/2 mx-auto items-center">
-                    For the Ninongs, kindly wear black suit with a yellow
-                    necktie. Meanwhile, for the Ninangs, come in a gown or
-                    formal dress in yellow.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="my-3 px-2 py-3 w-full overflow-hidden">
-              <div class="flex-1 space-y-1 px-4">
-                <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
                   Entourage
                 </div>
                 <div
@@ -650,8 +563,8 @@
                   "
                 >
                   <div class="flex w-1/2 mx-auto items-center">
-                    Gentlemen, come in a suit with blue necktie. Ladies, wear a
-                    dress in our shades of blue.
+                    Gentlemen, come in a black suit with blue necktie. Ladies,
+                    wear a formal dress in our shades of blue.
                   </div>
                 </div>
               </div>
@@ -799,6 +712,15 @@
                   with. <br />
                   But if you desire to give nonetheless, a monetary gift is what
                   we suggest. <br />
+                </div>
+
+                <div class="mx-auto text-xs text-gray-600 font-body">
+                  <ul class="mt-4">
+                    <li class="italic">Account Name: John Mark Navarrete</li>
+                    <li class="italic">
+                      Paymaya - +63 908 888 8469 | Security Bank - 0000023090257
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
