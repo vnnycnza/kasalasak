@@ -710,16 +710,21 @@
                 <div class="mx-auto text-base text-gray-600 font-body">
                   Your presence and prayers are the best gifts you can bless us
                   with. <br />
-                  But if you desire to give nonetheless, a monetary gift is what
-                  we suggest. <br />
+                  But if you desire to give nonetheless,
+                  <a v-on:click="toggleDetails()" class="underline">
+                    a monetary gift</a
+                  >
+                  is what we suggest. <br />
                 </div>
 
-                <div class="mx-auto text-xs text-gray-600 font-body">
+                <div
+                  v-bind:class="{ hidden: hideDetails }"
+                  class="mx-auto text-xs text-gray-600 font-body"
+                >
                   <ul class="mt-4">
                     <li class="italic">Account Name: John Mark Navarrete</li>
-                    <li class="italic">
-                      Paymaya - +63 908 888 8469 | Security Bank - 0000023090257
-                    </li>
+                    <li class="italic">Paymaya - +63 908 888 8469</li>
+                    <li class="italic">Security Bank - 0000023090257</li>
                   </ul>
                 </div>
               </div>
@@ -771,6 +776,11 @@ export default {
     Timer,
     Scroll,
   },
+  data() {
+    return {
+      hideDetails: true,
+    };
+  },
   computed: {
     ...mapGetters({
       showMenu: "getShowMenu",
@@ -782,6 +792,9 @@ export default {
   methods: {
     scrollToTop() {
       window.scrollTo(0, 0);
+    },
+    toggleDetails: function () {
+      this.hideDetails = !this.hideDetails;
     },
   },
 };
