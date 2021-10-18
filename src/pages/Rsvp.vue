@@ -66,23 +66,31 @@
         </span>
       </div>
 
-      <div class="flex item-center justify-center py-2">
+      <div class="flex items-center justify-center pb-6 mt-8 mx-6">
         <span
           class="
+            flex
             mx-6
+            px-4
+            mx-auto
             text-base
             tracking-tight
             text-gray-600
             font-body
             text-center
+            w-full
+            max-w-lg
           "
         >
-          Let us know if you can make it by answering the form &#x1F499; <br />
-          You can also contact Kam Tolentino at +63 917 815 3887.
+          Let us know if you can make it by answering the form or you can also
+          contact Kam Tolentino at +63 917 815 3887. &#x1F499;
         </span>
       </div>
 
-      <section id="form" class="flex item-center justify-center pb-6 mt-8 mx-6">
+      <section
+        id="form"
+        class="flex items-center justify-center pb-6 mt-8 mx-6"
+      >
         <form
           name="rsvp"
           method="post"

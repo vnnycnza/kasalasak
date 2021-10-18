@@ -7,9 +7,9 @@
     </section>
 
     <section id="countdown" class="py-4">
-      <div class="container mx-auto my-auto item-center justify-center">
+      <div class="container mx-auto my-auto items-center justify-center">
         <div class="mx-4 my-4">
-          <div class="flex item-center justify-center py-4 mt-4">
+          <div class="flex items-center justify-center py-4 mt-4">
             <svg
               id="calendar"
               enable-background="new 0 0 512 512"
@@ -66,7 +66,7 @@
               </g>
             </svg>
           </div>
-          <div class="flex item-center justify-center">
+          <div class="flex items-center justify-center">
             <span
               class="
                 text-3xl
@@ -79,7 +79,7 @@
               We're getting married! &nbsp;&#x1F973;
             </span>
           </div>
-          <div class="flex item-center justify-center pt-2 pb-6">
+          <div class="flex items-center justify-center pt-2 pb-6">
             <span
               class="
                 mx-6
@@ -94,7 +94,7 @@
             </span>
           </div>
           <Timer />
-          <div class="flex item-center justify-center py-4 px-2">
+          <div class="flex items-center justify-center py-4 px-2">
             <div class="flex flex-wrap -mx-2 overflow-hidden mx-auto">
               <div
                 class="my-2 px-6 w-full sm:w-1/2 md:w-full lg:w-1/2 xl:w-1/2"
@@ -331,10 +331,10 @@
     </section>
 
     <section id="groom-and-bride" class="bg-blue-100 py-4">
-      <div class="container mx-auto my-auto item-center justify-center">
+      <div class="container mx-auto my-auto items-center justify-center">
         <div class="mx-4">
           <!-- Icon -->
-          <div class="flex item-center justify-center py-4">
+          <div class="flex items-center justify-center py-4">
             <svg
               id="couple"
               enable-background="new 0 0 512.119 512.119"
@@ -397,7 +397,7 @@
           </div>
 
           <!-- Attire -->
-          <div class="flex item-center justify-center">
+          <div class="flex items-center justify-center">
             <span class="text-3xl md:text-4xl text-gray-700 font-caveat">
               The Couple
             </span>
@@ -451,7 +451,7 @@
           </div>
 
           <!-- Link to Story -->
-          <div class="flex item-center justify-center mb-6">
+          <div class="flex items-center justify-center mb-6">
             <router-link to="/story">
               <button
                 class="
@@ -479,10 +479,10 @@
     </section>
 
     <section id="message-us" class="pt-6 pb-2">
-      <div class="container mx-auto my-auto item-center justify-center">
+      <div class="container mx-auto my-auto items-center justify-center">
         <div class="mx-4">
           <!-- Icon -->
-          <div class="flex item-center justify-center py-4">
+          <div class="flex items-center justify-center py-4">
             <svg
               id="message-us"
               enable-background="new 0 0 511.56 511.56"
@@ -511,7 +511,7 @@
           </div>
 
           <!-- Note on Gifts -->
-          <div class="flex item-center justify-center">
+          <div class="flex items-center justify-center">
             <span class="text-3xl md:text-4xl text-gray-700 font-caveat">
               We'd love to hear from you!
             </span>
@@ -524,9 +524,7 @@
           />
 
           <!-- Message -->
-          <div
-            class="flex-col item-center justify-center items-center text-center"
-          >
+          <div class="flex-col justify-center items-center text-center">
             <div class="my-3 px-6 py-4 w-full overflow-hidden">
               <div class="flex-1 space-y-1">
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
@@ -549,7 +547,7 @@
                 </div>
 
                 <!-- Link to Rsvp -->
-                <div class="flex item-center justify-center py-4 mt-6">
+                <div class="flex items-center justify-center py-4 mt-6">
                   <router-link to="/rsvp">
                     <button
                       class="

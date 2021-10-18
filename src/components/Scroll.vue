@@ -1,7 +1,7 @@
 <template>
   <transition class="fade">
     <div class="container mx-auto my-auto items-center justify-center">
-      <div class="flex item-center justify-center">
+      <div class="flex items-center justify-center">
         <div id="pagetop" class="flex animate-bounce" @click="toTop">
           <svg
             id="back-to-top"

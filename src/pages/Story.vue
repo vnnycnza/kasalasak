@@ -3,7 +3,7 @@
     <div
       v-bind:class="{ hidden: showMenu }"
       id="story"
-      class="container mx-auto my-auto item-center justify-center h-3/4"
+      class="container mx-auto my-auto items-center justify-center h-3/4"
     >
       <section id="title">
         <div class="flex items-center justify-center py-4 mt-8">
@@ -63,7 +63,7 @@
           </span>
         </div>
 
-        <div class="flex item-center justify-center py-2">
+        <div class="flex items-center justify-center py-2">
           <span
             class="
               mx-6
@@ -604,13 +604,13 @@
 
       <!-- Scroll Up -->
       <section id="back-to-top">
-        <div class="flex item-center justify-center pt-4">
+        <div class="flex items-center justify-center pt-4">
           <Scroll />
         </div>
       </section>
 
       <!-- Back to Home -->
-      <div class="flex item-center justify-center py-2">
+      <div class="flex items-center justify-center py-2">
         <router-link to="/">
           <button
             class="

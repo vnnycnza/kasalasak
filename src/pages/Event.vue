@@ -1,10 +1,10 @@
 <template>
   <div id="event-page" class="event-page" v-bind:class="{ hidden: showMenu }">
     <section id="venue-details">
-      <div class="container mx-auto my-auto item-center justify-center">
+      <div class="container mx-auto my-auto items-center justify-center">
         <div class="mx-4 mt-8 mb-6 xl:mt-12">
           <!-- Icon -->
-          <div class="flex item-center justify-center py-4">
+          <div class="flex items-center justify-center py-4">
             <svg
               id="Layer_1"
               enable-background="new 0 0 512 512"
@@ -51,7 +51,7 @@
           </div>
 
           <!-- Event Details -->
-          <div class="flex item-center justify-center">
+          <div class="flex items-center justify-center">
             <span class="text-3xl md:text-4xl text-gray-700 font-caveat">
               Event Details
             </span>
@@ -64,7 +64,7 @@
           />
 
           <!-- Event Date -->
-          <div class="flex item-center justify-center py-4">
+          <div class="flex items-center justify-center py-4">
             <span class="text-xl md:text-2xl text-gray-700 font-body">
               Wedding Date | 01. 16. 2022
             </span>
@@ -353,7 +353,7 @@
                     style="border: 0; display: block"
                     allowfullscreen=""
                     loading="lazy"
-                    class="item-center"
+                    class="items-center"
                   ></iframe>
                   <!-- <img class="object-contain md:object-scale-down ..." src="../assets/map.png"> -->
                 </div>
@@ -365,10 +365,10 @@
     </section>
 
     <section id="theme-and-attire" class="bg-blue-100 py-4">
-      <div class="container mx-auto my-auto item-center justify-center">
+      <div class="container mx-auto my-auto items-center justify-center">
         <div class="mx-4">
           <!-- Icon -->
-          <div class="flex item-center justify-center py-4">
+          <div class="flex items-center justify-center py-4">
             <svg
               id="attire"
               enable-background="new 0 0 512.01 512.01"
@@ -423,7 +423,7 @@
           </div>
 
           <!-- Attire -->
-          <div class="flex item-center justify-center">
+          <div class="flex items-center justify-center">
             <span class="text-3xl md:text-4xl text-gray-700 font-caveat">
               Theme & Attire
             </span>
@@ -547,7 +547,7 @@
 
           <!-- Attire -->
           <div
-            class="flex-col item-center justify-center items-center text-center"
+            class="flex-col items-center justify-center items-center text-center"
           >
             <div class="my-3 px-2 py-3 w-full overflow-hidden">
               <div class="flex-1 space-y-1 px-4">
@@ -617,10 +617,10 @@
     </section>
 
     <section id="gifts" class="py-4">
-      <div class="container mx-auto my-auto item-center justify-center">
+      <div class="container mx-auto my-auto items-center justify-center">
         <div class="mx-4">
           <!-- Icon -->
-          <div class="flex item-center justify-center py-4">
+          <div class="flex items-center justify-center py-4">
             <svg
               id="gifts"
               enable-background="new 0 0 512.129 512.129"
@@ -675,7 +675,7 @@
           </div>
 
           <!-- Note on Gifts -->
-          <div class="flex item-center justify-center">
+          <div class="flex items-center justify-center">
             <span class="text-3xl md:text-4xl text-gray-700 font-caveat">
               A Note on Gifts
             </span>
@@ -689,7 +689,7 @@
 
           <!-- Gifts -->
           <div
-            class="flex-col item-center justify-center items-center text-center"
+            class="flex-col items-center justify-center items-center text-center"
           >
             <div class="my-3 px-6 py-4 w-full overflow-hidden">
               <div class="flex-1 space-y-1">
@@ -739,7 +739,7 @@
     </section>
 
     <!-- Back to Home -->
-    <div class="flex item-center justify-center py-2">
+    <div class="flex items-center justify-center py-2">
       <router-link to="/">
         <button
           class="
