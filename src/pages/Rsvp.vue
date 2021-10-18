@@ -62,7 +62,7 @@
             font-caveat
           "
         >
-          Hey there, don't be a stranger...
+          RSVP
         </span>
       </div>
 
@@ -77,7 +77,7 @@
             text-center
           "
         >
-          Leave us a message. We'd appreciate it &#x1F499;
+          Let us know if you can make it &#x1F499;
         </span>
       </div>
 
@@ -108,62 +108,39 @@
                 "
                 for="grid-first-name"
               >
-                First Name
+                Attending?
               </label>
-              <input
-                class="
-                  appearance-none
-                  block
-                  w-full
-                  bg-gray-200
-                  text-gray-700
-                  border
-                  rounded
-                  py-3
-                  px-4
-                  mb-3
-                  leading-tight
-                  focus:outline-none focus:bg-white
-                "
-                id="grid-first-name"
-                type="text"
-                placeholder="Jane"
-                name="first_name"
-              />
-            </div>
-            <div class="w-full md:w-1/2 px-3">
-              <label
-                class="
-                  block
-                  uppercase
-                  tracking-wide
-                  text-gray-700 text-xs
-                  font-body
-                  mb-2
-                "
-                for="grid-last-name"
-              >
-                Last Name
-              </label>
-              <input
-                class="
-                  appearance-none
-                  block
-                  w-full
-                  bg-gray-200
-                  text-gray-700
-                  border border-gray-200
-                  rounded
-                  py-3
-                  px-4
-                  leading-tight
-                  focus:outline-none focus:bg-white focus:border-gray-500
-                "
-                id="grid-last-name"
-                type="text"
-                placeholder="Doe"
-                name="last_name"
-              />
+              <div>
+                <label class="inline-flex items-center">
+                  <input
+                    type="radio"
+                    class="form-radio"
+                    name="attendance"
+                    value="Yes"
+                  />
+                  <span class="ml-2 text-gray-700 text-xs uppercase">Yes</span>
+                </label>
+                <label class="inline-flex items-center ml-6">
+                  <input
+                    type="radio"
+                    class="form-radio"
+                    name="attendance"
+                    value="No"
+                  />
+                  <span class="ml-2 text-gray-700 text-xs uppercase">No</span>
+                </label>
+                <label class="inline-flex items-center ml-6">
+                  <input
+                    type="radio"
+                    class="form-radio"
+                    name="attendance"
+                    value="Zoom"
+                  />
+                  <span class="ml-2 text-gray-700 text-xs uppercase"
+                    >Via Zoom</span
+                  >
+                </label>
+              </div>
             </div>
           </div>
           <div class="flex flex-wrap -mx-3 mb-6">
@@ -179,7 +156,7 @@
                 "
                 for="grid-password"
               >
-                E-mail
+                Name
               </label>
               <input
                 class="
@@ -215,7 +192,7 @@
                 "
                 for="grid-password"
               >
-                Phone
+                Contact Number
               </label>
               <input
                 class="
@@ -274,6 +251,10 @@
                 id="message"
                 name="message"
               ></textarea>
+              <span class="text-sm tracking-tight text-gray-600 font-body">
+                Alternatively, you can also contact Kam Tolentino at +63 917 815
+                3887.
+              </span>
             </div>
           </div>
           <div class="md:flex md:items-center">
@@ -295,6 +276,7 @@
                 Send
               </button>
             </div>
+            <div class="flex content-end text-right"></div>
           </div>
         </form>
       </section>
