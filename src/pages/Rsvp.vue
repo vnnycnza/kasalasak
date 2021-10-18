@@ -77,7 +77,8 @@
             text-center
           "
         >
-          Let us know if you can make it &#x1F499;
+          Let us know if you can make it by answering the form &#x1F499; <br />
+          You can also contact Kam Tolentino at +63 917 815 3887.
         </span>
       </div>
 
@@ -173,9 +174,9 @@
                   leading-tight
                   focus:outline-none focus:bg-white focus:border-gray-500
                 "
-                id="email"
-                type="email"
-                name="email"
+                id="name"
+                type="text"
+                name="name"
               />
             </div>
           </div>
@@ -210,8 +211,47 @@
                   focus:outline-none focus:bg-white focus:border-gray-500
                 "
                 id="phone"
-                type="phone"
+                type="text"
                 name="phone"
+              />
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+              <label
+                class="
+                  block
+                  uppercase
+                  tracking-wide
+                  text-gray-700 text-xs
+                  font-body
+                "
+                for="grid-password"
+              >
+                Email
+              </label>
+              <span class="text-sm tracking-tight text-gray-600 font-body mb-2">
+                Please provide your email if attending via Zoom.
+              </span>
+              <input
+                class="
+                  appearance-none
+                  block
+                  w-full
+                  bg-gray-200
+                  text-gray-700
+                  border border-gray-200
+                  rounded
+                  py-3
+                  px-4
+                  mt-
+                  mb-3
+                  leading-tight
+                  focus:outline-none focus:bg-white focus:border-gray-500
+                "
+                id="email"
+                type="text"
+                name="email"
               />
             </div>
           </div>
@@ -251,10 +291,6 @@
                 id="message"
                 name="message"
               ></textarea>
-              <span class="text-sm tracking-tight text-gray-600 font-body">
-                Alternatively, you can also contact Kam Tolentino at +63 917 815
-                3887.
-              </span>
             </div>
           </div>
           <div class="md:flex md:items-center">
