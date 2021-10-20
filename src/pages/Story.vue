@@ -660,7 +660,7 @@ export default {
         {
           images: ["story/02.png"],
           title: "02.2014 - UP Fair 2014",
-          desc: "Few years later, I had a crush on Vanny and started hanging out with her more. One of the most memorable ones would be UP Fair 2014 where I gave her my backstage pass so she can spend the event with me & also watch me perform.",
+          desc: "Few years later, I had a crush on Vanny and started hanging out with her more. One of the most memorable ones would be UP Fair 2014 where I gave her my backstage pass so she can spend the event with me & also watch me perform with my band.",
           speaker: "story/groom1.jpg",
         },
         {
