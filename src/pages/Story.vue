@@ -655,31 +655,31 @@ export default {
           images: ["story/01.png"],
           title: "2011 - Orgmates",
           desc: "We first met when I applied as an org member in UP CURSOR in 2011 where JM was already a member of. We became orgmates and had quite a number of common friends & college experiences. #cursorsexy",
-          speaker: "story/bride1.jpg",
+          speaker: "story/bride01.png",
         },
         {
           images: ["story/02.png"],
           title: "02.2014 - UP Fair 2014",
           desc: "Few years later, I had a crush on Vanny and started hanging out with her more. One of the most memorable ones would be UP Fair 2014 where I gave her my backstage pass so she can spend the event with me & also watch me perform with my band.",
-          speaker: "story/groom1.jpg",
+          speaker: "story/groom01.png",
         },
         {
           images: ["story/0301.png", "story/0302.png"],
           title: "02.14.2014 - First Date",
           desc: "Feb 14 2014 was our first Valentines together. For JM, this was our first date. For me, he was just asking me to grab dinner with him. &#x1F602; The next day, JM went to a party organised by CS Dept which I led & was a part of. It's probably when sparks started flying.",
-          speaker: "story/bride1.jpg",
+          speaker: "story/bride01.png",
         },
         {
           images: ["story/04.png"],
           title: "08.16.2014 - Make it official",
           desc: "After some months of courting & dating, we became official as a couple on Aug 16, 2014. We went on a date before heading to UP CURSOR’s Anniversary Party. I was asked, on stage, if we are indeed officially together. She wanted to keep it to ourselves for a while but then we were cornered and had to announce it. &#x1F602; #celebrity??",
-          speaker: "story/groom1.jpg",
+          speaker: "story/groom01.png",
         },
         {
           images: ["story/05.png"],
           title: "01.16.2015 - Road trips",
           desc: "Tagaytay has a special place in our hearts because of this core memory - our first out of town trip. This is just a start for all dinner dates, museum tours & random trips we will have.",
-          speaker: "story/bride1.jpg",
+          speaker: "story/bride01.png",
         },
         {
           images: [
@@ -691,7 +691,7 @@ export default {
           ],
           title: "11.2015 - Ginny &#x1F436;",
           desc: "On Nov 2015, we became dog parents to our furry baby Ginny! It was in early 2016 when I brought Ginny home. Definitely a bundle of joy!",
-          speaker: "story/groom1.jpg",
+          speaker: "story/groom01.png",
         },
         {
           images: [
@@ -704,7 +704,7 @@ export default {
           ],
           title: "2016 - Date Nights",
           desc: "Time together is usually spent on staying in & watching random shows. Pre-pandemic, we would always go on dinner & movie dates. We also love seeing concerts & exploring cool places. JM is an awesome musician and there was a time when most of our dinner dates are gig nights. Definitely tiring but so fun and awesome. &#x1F3B8;&#x1F941;",
-          speaker: "story/bride1.jpg",
+          speaker: "story/bride01.png",
         },
         {
           images: [
@@ -717,25 +717,25 @@ export default {
           ],
           title: "2017 - Church Family",
           desc: "We love weekends, most especially Sundays. We go to church together & spend quality time with our church family. The fun isn't confined on Sundays though - we've enjoyed serving in youth camps together, having fellowships & even just random trips with the gang.",
-          speaker: "story/groom1.jpg",
+          speaker: "story/groom01.png",
         },
         {
           images: ["story/0901.png", "story/0902.png", "story/0903.png"],
           title: "2018 - Love for travel",
           desc: "As home buddies, we only discovered our love for travel in 2018. Since then, we would set aside weeklong leaves and invite our closest friends to have much awaited vacation in beautiful & relaxing places.",
-          speaker: "story/bride1.jpg",
+          speaker: "story/bride01.png",
         },
         {
           images: ["story/1001.png"],
           title: "10.04.2019 - Singapore",
           desc: "On Oct 2019, Vanny got the opportunity to work in Singapore. To show my support and to lessen the burden of starting a long-distance relationship even by a bit, I went with her to help her settle in. It was a weeklong trip that would have a bittersweet ending.",
-          speaker: "story/groom1.jpg",
+          speaker: "story/groom01.png",
         },
         {
           images: ["story/1101.png"],
           title: "10.12.2019 - Goodbye for now",
           desc: "I celebrated my 26th birthday in Singapore with JM. It was spent grocery shopping and settling in my new place. This would also be the same day that JM would fly back to Manila and I will be left in Singapore to work. ✈️",
-          speaker: "story/bride1.jpg",
+          speaker: "story/bride01.png",
         },
         {
           images: [
@@ -747,13 +747,13 @@ export default {
           ],
           title: "2020 - So near yet so far",
           desc: "We spent almost a year and half apart. Add in the unexpected pandemic, it was indeed a recipe for disaster. It was probably the most difficult experience but by God's love & grace, this only made us stronger.",
-          speaker: "story/groom1.jpg",
+          speaker: "story/groom01.png",
         },
         {
           images: ["story/1301.png", "story/1302.png"],
           title: "05.2021 - Reunited",
           desc: "God is faithful and His timing is always perfect. By His grace, I was able to return back home and is reunited with JM.",
-          speaker: "story/bride1.jpg",
+          speaker: "story/bride01.png",
         },
         {
           images: [
@@ -764,7 +764,7 @@ export default {
           ],
           title: "07.16.2022 - We got engaged",
           desc: "A month before our 7th anniversary, we went to Tagaytay for a relaxing weekend staycation. With the help of our friends, I pulled off a surprise and asked Vanny to marry me. Thankfully, she said yes. &#x1F48D;",
-          speaker: "story/groom1.jpg",
+          speaker: "story/groom01.png",
         },
       ],
     };

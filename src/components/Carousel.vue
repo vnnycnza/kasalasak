@@ -27,10 +27,11 @@ export default {
       lazyLoadAfter: 3,
     },
     images: [
-      require("@/assets/story/home01.png"),
-      require("@/assets/story/home02.png"),
-      require("@/assets/story/home03.png"),
-      require("@/assets/story/home04.png"),
+      require("@/assets/story/home01.jpg"),
+      require("@/assets/story/home02.jpg"),
+      require("@/assets/story/home03.jpg"),
+      require("@/assets/story/home04.jpg"),
+      require("@/assets/story/home05.jpg"),
     ],
     transitions: {
       transitionFade: Transitions.transitionFade,

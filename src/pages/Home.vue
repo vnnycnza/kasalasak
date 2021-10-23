@@ -539,10 +539,10 @@
                   "
                 >
                   <div class="flex w-1/2 mx-auto items-center">
-                    While we really wanted to celebrate our union with everyone
-                    dear, health and safety is our priority. Express your intent
-                    to attend by leaving us a message. Or, you can just drop a
-                    message regardless. &#x1F92A;
+                    While we really want to celebrate our union with everyone
+                    dear, the current situation limits us to do so. Express your
+                    intent to attend by leaving us a message. Or, you can just
+                    drop a message regardless. &#x1F92A;
                   </div>
                 </div>
 
@@ -602,12 +602,12 @@ export default {
     return {
       content: [
         {
-          images: ["story/groom1.jpg"],
+          images: ["story/groom01.png"],
           title: "The Groom",
           desc: "JM is a born rockstar. He knows how to play all sorts of instruments but he's the best at drums and guitar. &#x1F941; &#x1F3B8; Oh, and he sings well too. When God showered talents, he probably had a suitcase while everyone else only got a plastic bag. &#128514; He loves playing video games when no one else is awake, and spends most of his free time watching basketball highlights. &#x1F3C0; He's also a passionate Instructional Design Specialist. That's his job title but I'm honestly not sure what that means, I just know he is passionate about it. &#x1F525;",
         },
         {
-          images: ["story/bride1.jpg"],
+          images: ["story/bride01.png"],
           title: "The Bride",
           desc: "Vanny is a software engineer by profession, backed with years of experience, but still copies code from Stack Overflow. &#x1F605; Don't be fooled by her height, she's one strong, independent woman. She's analytical and logical when it comes to her decision making, always taking calculated measures. &#x1F4C8; She probably drafted a flowchart in her mind when I asked her to marry me. &#128514; You'd catch her re-watching Friends, Brooklyn 99, or Hospital Playlist in between watching Hell's Kitchen or Masterchef. &#x1F4FA;",
         },

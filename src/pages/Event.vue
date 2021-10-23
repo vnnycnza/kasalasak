@@ -547,7 +547,13 @@
 
           <!-- Attire -->
           <div
-            class="flex-col items-center justify-center items-center text-center"
+            class="
+              flex-col
+              items-center
+              justify-center
+              items-center
+              text-center
+            "
           >
             <div class="my-3 px-2 py-3 w-full overflow-hidden">
               <div class="flex-1 space-y-1 px-4">
@@ -689,7 +695,13 @@
 
           <!-- Gifts -->
           <div
-            class="flex-col items-center justify-center items-center text-center"
+            class="
+              flex-col
+              items-center
+              justify-center
+              items-center
+              text-center
+            "
           >
             <div class="my-3 px-6 py-4 w-full overflow-hidden">
               <div class="flex-1 space-y-1">

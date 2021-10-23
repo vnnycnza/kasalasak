@@ -75,7 +75,7 @@ export default {
     },
     speaker: {
       type: String,
-      default: "story/groom1.jpg",
+      default: "story/groom01.png",
     },
   },
   computed: {

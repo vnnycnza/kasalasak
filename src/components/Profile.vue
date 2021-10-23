@@ -7,7 +7,15 @@
             <img
               :src="require(`../assets/${selectedImage}`)"
               alt="..."
-              class="mx-auto shadow rounded-full h-full w-3/4 border-none"
+              class="
+                mx-auto
+                shadow
+                rounded-full
+                h-full
+                w-3/4
+                border-none
+                object-fill
+              "
             />
           </div>
         </div>
