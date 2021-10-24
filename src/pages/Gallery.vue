@@ -69,6 +69,32 @@
             <GalleryView />
           </div>
 
+          <!-- Notes -->
+          <div class="flex items-center justify-center py-4 mx-6 text-center">
+            <span
+              class="
+                mx-auto
+                text-base
+                tracking-tight
+                text-gray-600
+                font-body
+                text-center
+                w-full
+                max-w-lg
+              "
+            >
+              Photos uploaded
+              <a
+                class="underline"
+                href="https://www.facebook.com/mokicruzphoto/posts/4579124828822154"
+                target="_blank"
+                title="Moki Cruz Photography"
+                >here</a
+              >
+              &#x1F499;
+            </span>
+          </div>
+
           <div class="flex items-center justify-center py-2 mt-4">
             <router-link to="/">
               <button

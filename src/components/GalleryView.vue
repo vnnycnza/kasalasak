@@ -1,12 +1,14 @@
 <template>
-  <vue-flux :options="options" :images="images" :transitions="transitions">
-    <flux-controls slot="controls"></flux-controls>
-    <flux-index slot="index"></flux-index>
-  </vue-flux>
+  <div>
+    <vue-flux :options="options" :images="images" :transitions="transitions">
+      <flux-controls slot="controls"></flux-controls>
+      <flux-index slot="index"></flux-index>
+    </vue-flux>
+  </div>
 </template>
 
 <script>
-import { VueFlux, FluxIndex, Transitions, FluxControls } from "vue-flux";
+import { VueFlux, FluxIndex, FluxControls, Transitions } from "vue-flux";
 
 export default {
   name: "GalleryView",
@@ -20,9 +22,8 @@ export default {
       fullscreen: true,
       allowToSkipTransition: true,
       autohideTime: 3000,
-      autoplay: true,
-      bindKeys: false,
-      delay: 5000,
+      bindKeys: true,
+      delay: 10000,
       enableGestures: true,
       infinite: true,
       lazyLoad: true,
