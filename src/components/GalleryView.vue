@@ -17,12 +17,12 @@ export default {
   },
   data: () => ({
     options: {
-      allowFullscreen: false,
+      fullscreen: true,
       allowToSkipTransition: true,
       autohideTime: 3000,
       autoplay: true,
       bindKeys: false,
-      delay: 2500,
+      delay: 5000,
       enableGestures: true,
       infinite: true,
       lazyLoad: true,
