@@ -451,7 +451,7 @@
           </div>
 
           <!-- Link to Story -->
-          <div class="flex items-center justify-center mb-6">
+          <div class="flex items-center justify-center py-4">
             <router-link to="/story">
               <button
                 class="
@@ -471,6 +471,31 @@
                 "
               >
                 Look into our story
+              </button>
+            </router-link>
+          </div>
+
+          <!-- Link to Gallery -->
+          <div class="flex items-center justify-center mb-6">
+            <router-link to="/gallery">
+              <button
+                class="
+                  text-xs
+                  xl:text-base
+                  bg-transparent
+                  hover:bg-theme-200
+                  text-theme-200
+                  font-body
+                  hover:text-theme-50
+                  py-2
+                  px-4
+                  border border-blue-500
+                  hover:border-transparent
+                  rounded
+                  uppercase
+                "
+              >
+                View Gallery
               </button>
             </router-link>
           </div>

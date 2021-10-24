@@ -39,6 +39,14 @@
         </li>
         <li>
           <router-link
+            to="/gallery"
+            @click.native="toggleNavbar()"
+            class="block py-2 hover:text-theme-300"
+            >gallery</router-link
+          >
+        </li>
+        <li>
+          <router-link
             to="/story"
             @click.native="toggleNavbar()"
             class="block py-2 hover:text-theme-300"

@@ -9,6 +9,7 @@ import Event from "./pages/Event.vue";
 import Rsvp from "./pages/Rsvp.vue";
 import Story from "./pages/Story.vue";
 import Zoom from "./pages/Zoom.vue";
+import Gallery from "./pages/Gallery.vue";
 
 import "./assets/styles/index.css";
 
@@ -32,6 +33,10 @@ const routes = [
   {
     path: "/story",
     component: Story,
+  },
+  {
+    path: "/gallery",
+    component: Gallery,
   },
   {
     path: "/zoom",
