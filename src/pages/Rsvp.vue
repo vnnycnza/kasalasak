@@ -66,7 +66,31 @@
         </span>
       </div>
 
-      <div class="flex items-center justify-center pb-6 mt-8 mx-6">
+      <div class="flex items-center justify-center pb-6 mt-6 mx-6">
+        <span
+          class="
+            flex
+            mx-6
+            px-4
+            mx-auto
+            text-base
+            tracking-tight
+            text-gray-600
+            font-body
+            text-center
+            w-full
+            max-w-lg
+          "
+        >
+          As much as we want everyone to be able to celebrate in person, we do
+          ask that if you are feeling ill, receive a positive COVID-19 test, or
+          have been exposed to COVID-19 at least 2 weeks before the wedding,
+          please stay home and focus on your health. You can still celebrate
+          with us virtually. &#x1F609;
+        </span>
+      </div>
+
+      <div class="flex items-center justify-center pb-6 mt-2 mx-6">
         <span
           class="
             flex
@@ -272,12 +296,14 @@
                   tracking-wide
                   text-gray-700 text-xs
                   font-body
-                  mb-2
                 "
                 for="grid-password"
               >
                 Message
               </label>
+              <span class="text-sm tracking-tight text-gray-600 font-body mb-2">
+                Indicate here if confirming for more than one person.
+              </span>
               <textarea
                 class="
                   no-resize

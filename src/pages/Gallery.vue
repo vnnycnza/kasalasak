@@ -28,40 +28,24 @@
           />
 
           <!-- Label -->
-          <div class="flex items-center justify-center mt-2 text-center">
+          <div
+            class="flex items-center justify-center py-2 mt-2 mb-2 text-center"
+          >
             <span class="text-xl md:text-2xl text-gray-700 font-body">
               Engagement Shoot
             </span>
           </div>
 
-          <!-- Notes -->
-          <div class="flex items-center justify-center py-4 mx-6 text-center">
-            <span
-              class="
-                mx-auto
-                text-base
-                tracking-tight
-                text-gray-600
-                font-body
-                text-center
-                w-full
-                max-w-lg
-              "
-            >
-              <a
-                href="https://www.facebook.com/mokicruzphoto"
-                target="_blank"
-                title="Moki Cruz Photography"
-                >Moki Cruz Photography</a
-              >
-              |
-              <a
-                href="https://www.facebook.com/ContemporaryArtVideos"
-                target="_blank"
-                title="Contemporary Art Studios"
-                >Contemporary Art Studios</a
-              >
-            </span>
+          <!-- Video -->
+          <div class="flex items-center justify-center py-4 mt-2">
+            <div>
+              <video controls autoplay>
+                <source
+                  src="https://video-downloads.googleusercontent.com/AGQNM9Ln2Q0YlKglfWVJJINswikvIX3GiuAUXw6kTnD00C3nCT5O2yU8BBlLi_N-ltXSzj9JzZ-xRpQkN6H9kTqmAVHW9Fzzw7FMLw3rKSoIcmId331pUUxBYivdOx_Uo0jspvzv1hdFrVqGehcZW_GkdUEHrGlpuDwOlgFnLtA8t7cO4g6bOfPedIrqUKVUYfGhfkK4XUf-pr0GrcPj3F5kpYhWiLpKmmt4hcyB6bhRv1KZjhrXk0IyRF_Yi1sMgQqkB_pErgxh-ABRDQVqVvuoABfW7JpSqp0E9xJae5ogJZWNQz4EvHK3KPnjrJqg_r8hxo8zvNnkHe3qR7otuO4vYNNVTJI390xdKwO4_RHqAcp9kSw4s7JXbaohmG7c-q5OW6f-XDiYMoTl3NlxW7DfH6lV9ioL7up3owYWQo9JEncU15iOJrfVp51YP2frVC4eFgMdvvxAyedrmrVbtkK3hhnSPJxVRdAG4o6y6iDcs1ldz9YZ_jLtj5MRe010dAblaAnJGd7welvbCdjeIuUgBHW0fQ4EZmAcIKPGt6HAEo79vRhUcXEuh_J92lcp-14ucsL6GSMxknNmvg8i4c2moC91B2wKmKteW8wKz9l6iq_YaVA5FHaJP0dIDGNm81cjsa1QPQxIEEGx_sYUCWd7iFuS6kwKWorQDJuV_i4nW6bDv1RUQEiXpHDs_WhHWhb0nqia5aGmI_OTyVlE96al8qBrj8I4279h1x1gDY8TiWIMWIRVHc1OxX5uxNyZ1YtUjd7ocDL9bEDeiyCeSYqt9Af-w3pAnfvqP6hgJZ62C27OZ-wN7ILaZ-vmQSr6g9yJNp0jaZ1TlRVG-kc8bwBO-FQth8hrfnbBlTv5nviN2stlEtEfkzo?authuser=0"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
           </div>
 
           <!-- Gallery -->
@@ -70,32 +54,114 @@
           </div>
 
           <!-- Notes -->
-          <div class="flex items-center justify-center py-4 mx-6 text-center">
-            <span
-              class="
-                mx-auto
-                text-base
-                tracking-tight
-                text-gray-600
-                font-body
-                text-center
-                w-full
-                max-w-lg
-              "
-            >
-              Photos uploaded
-              <a
-                class="underline"
-                href="https://www.facebook.com/mokicruzphoto/posts/4579124828822154"
-                target="_blank"
-                title="Moki Cruz Photography"
-                >here</a
-              >
-              &#x1F499;
-            </span>
+          <div
+            class="flex items-center justify-center py-4 mt-4 mx-6 text-center"
+          >
+            <ul>
+              <li>
+                <span
+                  class="
+                    mx-auto
+                    text-base
+                    tracking-tight
+                    text-gray-600
+                    font-body
+                    text-center
+                    w-full
+                    max-w-lg
+                  "
+                >
+                  Photos by:
+                  <a
+                    class="underline"
+                    href="https://www.facebook.com/mokicruzphoto/posts/4579124828822154"
+                    target="_blank"
+                    title="Moki Cruz Photography"
+                    >Moki Cruz Photography</a
+                  >
+                </span>
+              </li>
+              <li>
+                <span
+                  class="
+                    mx-auto
+                    text-base
+                    tracking-tight
+                    text-gray-600
+                    font-body
+                    text-center
+                    w-full
+                    max-w-lg
+                  "
+                >
+                  Video by:
+                  <a
+                    class="underline"
+                    href="https://fb.watch/8WyqX7EaWx/"
+                    target="_blank"
+                    title="Contemporary Art Studios"
+                    >Contemporary Art Studios</a
+                  >
+                </span>
+              </li>
+              <li>
+                <span
+                  class="
+                    mx-auto
+                    text-base
+                    tracking-tight
+                    text-gray-600
+                    font-body
+                    text-center
+                    w-full
+                    max-w-lg
+                  "
+                >
+                  HMUA:
+                  <a
+                    class="underline"
+                    href="https://www.instagram.com/arlenedoesmakeup/"
+                    target="_blank"
+                    title="Arlene Bulactial"
+                    >Arlene Bulactial</a
+                  >
+                  &
+                  <a
+                    class="underline"
+                    href="https://www.instagram.com/johnerik.ph/"
+                    target="_blank"
+                    title="John Erik"
+                    >John Erik</a
+                  >
+                </span>
+              </li>
+              <li>
+                <span
+                  class="
+                    mx-auto
+                    text-base
+                    tracking-tight
+                    text-gray-600
+                    font-body
+                    text-center
+                    w-full
+                    max-w-lg
+                  "
+                >
+                  Coordinator:
+                  <a
+                    class="underline"
+                    href="https://twp.events/"
+                    target="_blank"
+                    title="The Weekend Planner"
+                    >The Weekend Planner</a
+                  >
+                </span>
+              </li>
+            </ul>
           </div>
 
-          <div class="flex items-center justify-center py-2 mt-4">
+          <div class="flex items-center justify-center py-2 mt-2">
             <router-link to="/">
               <button
                 class="

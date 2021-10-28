@@ -1,11 +1,11 @@
 const { colors } = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  // purge: {
-  //   enabled: true,
-  //   layers: ["base", "components", "utilities"],
-  //   content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
-  // },
+  purge: {
+    enabled: true,
+    layers: ["base", "components", "utilities"],
+    content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
+  },
   theme: {
     extend: {
       fontFamily: {

@@ -19,11 +19,12 @@ export default {
   },
   data: () => ({
     options: {
+      autoplay: true,
       fullscreen: true,
       allowToSkipTransition: true,
       autohideTime: 3000,
       bindKeys: true,
-      delay: 10000,
+      delay: 5000,
       enableGestures: true,
       infinite: true,
       lazyLoad: true,
