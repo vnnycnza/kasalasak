@@ -37,15 +37,14 @@
           </div>
 
           <!-- Video -->
-          <div class="flex items-center justify-center py-4 mt-2">
-            <div>
-              <video controls autoplay>
-                <source
-                  src="https://video-downloads.googleusercontent.com/AGQNM9Ln2Q0YlKglfWVJJINswikvIX3GiuAUXw6kTnD00C3nCT5O2yU8BBlLi_N-ltXSzj9JzZ-xRpQkN6H9kTqmAVHW9Fzzw7FMLw3rKSoIcmId331pUUxBYivdOx_Uo0jspvzv1hdFrVqGehcZW_GkdUEHrGlpuDwOlgFnLtA8t7cO4g6bOfPedIrqUKVUYfGhfkK4XUf-pr0GrcPj3F5kpYhWiLpKmmt4hcyB6bhRv1KZjhrXk0IyRF_Yi1sMgQqkB_pErgxh-ABRDQVqVvuoABfW7JpSqp0E9xJae5ogJZWNQz4EvHK3KPnjrJqg_r8hxo8zvNnkHe3qR7otuO4vYNNVTJI390xdKwO4_RHqAcp9kSw4s7JXbaohmG7c-q5OW6f-XDiYMoTl3NlxW7DfH6lV9ioL7up3owYWQo9JEncU15iOJrfVp51YP2frVC4eFgMdvvxAyedrmrVbtkK3hhnSPJxVRdAG4o6y6iDcs1ldz9YZ_jLtj5MRe010dAblaAnJGd7welvbCdjeIuUgBHW0fQ4EZmAcIKPGt6HAEo79vRhUcXEuh_J92lcp-14ucsL6GSMxknNmvg8i4c2moC91B2wKmKteW8wKz9l6iq_YaVA5FHaJP0dIDGNm81cjsa1QPQxIEEGx_sYUCWd7iFuS6kwKWorQDJuV_i4nW6bDv1RUQEiXpHDs_WhHWhb0nqia5aGmI_OTyVlE96al8qBrj8I4279h1x1gDY8TiWIMWIRVHc1OxX5uxNyZ1YtUjd7ocDL9bEDeiyCeSYqt9Af-w3pAnfvqP6hgJZ62C27OZ-wN7ILaZ-vmQSr6g9yJNp0jaZ1TlRVG-kc8bwBO-FQth8hrfnbBlTv5nviN2stlEtEfkzo?authuser=0"
-                  type="video/mp4"
-                />
-              </video>
-            </div>
+          <div class="aspect-w-16 aspect-h-9">
+            <iframe
+              class="py-4"
+              src="https://drive.google.com/file/d/1bnl6gEZd5vCn4RjCo1LDTYjcFXgL5TLA/preview"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
 
           <!-- Gallery -->
