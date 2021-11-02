@@ -37,14 +37,13 @@
           </div>
 
           <!-- Video -->
-          <div class="aspect-w-16 aspect-h-9">
+          <div class="aspect-w-16 aspect-h-9" style="display: block">
             <iframe
               class="py-4"
               src="https://drive.google.com/file/d/1bnl6gEZd5vCn4RjCo1LDTYjcFXgL5TLA/preview"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              style="display: block"
+              width="640"
+              height="480"
+              allow="autoplay"
             ></iframe>
           </div>
 
