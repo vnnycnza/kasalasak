@@ -99,7 +99,8 @@
               While we really want to celebrate our union with everyone dear,
               the current situation limits us to do so. Good news is you can
               still celebrate with us virtually. You are invited to join and
-              witness our wedding ceremony via Zoom. &#x1F499;
+              witness our wedding ceremony online. Kindly RSVP and select
+              attending via Zoom. &#x1F499;
             </span>
           </div>
 
