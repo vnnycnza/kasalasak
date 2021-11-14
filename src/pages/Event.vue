@@ -591,7 +591,7 @@
                 >
                   <div class="flex w-1/2 mx-auto items-center">
                     Dress comfortably but look good while you're at it. If you
-                    can, we'd love to see you wearing our colors.
+                    can, we'd love to see you wearing our colors in semi formal.
                   </div>
                 </div>
               </div>
