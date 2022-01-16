@@ -66,7 +66,7 @@
           <!-- Event Date -->
           <div class="flex items-center justify-center py-4">
             <span class="text-xl md:text-2xl text-gray-700 font-body">
-              Wedding Date | 01. 16. 2022
+              Wedding Date | 08. 27. 2022
             </span>
           </div>
 

@@ -82,15 +82,60 @@
           <div class="flex items-center justify-center pt-2 pb-6">
             <span
               class="
-                mx-6
+                px-4
+                mx-auto
                 text-base
                 tracking-tight
                 text-gray-600
                 font-body
                 text-center
+                italic
               "
             >
-              We're finally tying the knot on 01. 16. 2022. That's in about...
+              . . . . . or we already did if you're reading this after Jan 26,
+              2022.
+            </span>
+          </div>
+          <div class="flex items-center justify-center pt-2 pb-6">
+            <span
+              class="
+                flex
+                mx-8
+                px-4
+                mx-auto
+                text-base
+                tracking-tight
+                text-gray-600
+                font-body
+                text-center
+                w-full
+                max-w-lg
+              "
+            >
+              We had to move our original wedding date because of difficult
+              situations, one of it is both of us being positive with COVID-19.
+              It was unfortunate but God is always faithful and He is in
+              control.
+            </span>
+          </div>
+          <div class="flex items-center justify-center pt-2 pb-6">
+            <span
+              class="
+                flex
+                mx-8
+                px-4
+                mx-auto
+                text-base
+                tracking-tight
+                text-gray-600
+                font-body
+                text-center
+                w-full
+                max-w-lg
+              "
+            >
+              The party is still on! Join us celebrate our marriage on August
+              27, 2022. That's in about . . .
             </span>
           </div>
           <Timer />

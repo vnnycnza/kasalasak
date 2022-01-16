@@ -1,6 +1,6 @@
 <template>
-  <div id="zoom" class="zoom" bind:class="{ hidden: showMenu }">
-    <section id="zoom-details">
+  <div id="virtual" class="virtual" bind:class="{ hidden: showMenu }">
+    <section id="virtual-details">
       <div class="container mx-auto my-auto items-center justify-center">
         <div class="mx-4 mt-8 mb-6 xl:mt-12">
           <!-- Icon -->
@@ -66,14 +66,14 @@
           <!-- Event Date -->
           <div class="flex items-center justify-center py-4 text-center">
             <span class="text-xl md:text-2xl text-gray-700 font-body">
-              January 16, 2022 • 3:00pm
+              August 27, 2022 • 3:00pm
             </span>
           </div>
 
           <!-- Timer -->
           <div class="flex items-center justify-center py-2">
             <img
-              :src="require(`../assets/zoom.png`)"
+              :src="require(`../assets/virtual.jpg`)"
               class="object-cover rounded-2xl h-1/4 w-3/4 items-center"
               alt=""
             />
@@ -99,13 +99,12 @@
               While we really want to celebrate our union with everyone dear,
               the current situation limits us to do so. Good news is you can
               still celebrate with us virtually. You are invited to join and
-              witness our wedding ceremony online. Kindly RSVP and select
-              attending via Zoom. &#x1F499;
+              witness our wedding ceremony online. &#x1F499;
             </span>
           </div>
 
           <div class="flex items-center justify-center py-2">
-            <router-link to="/rsvp">
+            <a href="https://fb.me/e/1lMBzMoVP">
               <button
                 class="
                   text-xs
@@ -123,9 +122,9 @@
                   uppercase
                 "
               >
-                RSVP HERE
+                Join our virtual event
               </button>
-            </router-link>
+            </a>
           </div>
 
           <div class="flex items-center justify-center py-2">
@@ -159,13 +158,9 @@
 
 <script>
 import { mapGetters } from "vuex";
-//import Timer from "../components/Timer";
 
 export default {
-  name: "Zoom",
-  components: {
-    //Timer
-  },
+  name: "Virtual",
   computed: {
     ...mapGetters({
       showMenu: "getShowMenu",
@@ -183,7 +178,7 @@ export default {
 </script>
 
 <style scoped>
-.zoom {
+.virtual {
   padding-bottom: 144px;
 }
 </style>

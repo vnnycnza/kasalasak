@@ -167,10 +167,10 @@
                     type="radio"
                     class="form-radio"
                     name="attendance"
-                    value="Zoom"
+                    value="online"
                   />
                   <span class="ml-2 text-gray-700 text-xs uppercase"
-                    >Via Zoom</span
+                    >Online</span
                   >
                 </label>
               </div>
@@ -263,7 +263,8 @@
                 Email
               </label>
               <span class="text-sm tracking-tight text-gray-600 font-body mb-2">
-                Please provide your email if attending via Zoom.
+                Please provide your email or Facebook profile if attending
+                online.
               </span>
               <input
                 class="

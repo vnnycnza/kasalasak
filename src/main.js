@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import VueMeta from "vue-meta";
 import store from "./store";
 import VueEllipseProgress from "vue-ellipse-progress";
 
@@ -8,14 +9,16 @@ import Home from "./pages/Home.vue";
 import Event from "./pages/Event.vue";
 import Rsvp from "./pages/Rsvp.vue";
 import Story from "./pages/Story.vue";
-import Zoom from "./pages/Zoom.vue";
 import Gallery from "./pages/Gallery.vue";
+import Letter from "./pages/Letter.vue";
+import Virtual from "./pages/Virtual.vue";
 
 import "./assets/styles/index.css";
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
 Vue.use(VueEllipseProgress);
+Vue.use(VueMeta);
 
 const routes = [
   {
@@ -39,8 +42,12 @@ const routes = [
     component: Gallery,
   },
   {
-    path: "/zoom",
-    component: Zoom,
+    path: "/virtual",
+    component: Virtual,
+  },
+  {
+    path: "/letter",
+    component: Letter,
   },
 ];
 

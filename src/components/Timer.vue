@@ -142,7 +142,7 @@ export default {
       days: "0",
       distance: 0,
       countdown: null,
-      weddingDate: new Date("01/16/2022"),
+      weddingDate: new Date("Saturday, August 27, 2022 3:00:00 PM GMT+08:00"),
       daysCaption: "days",
       secondsCaption: "seconds",
       minutesCaption: "minutes",
