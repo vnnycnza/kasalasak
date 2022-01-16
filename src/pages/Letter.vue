@@ -396,11 +396,17 @@ export default {
         { property: "og:description", content: "A letter to our guests" },
         { property: "og:site_name", content: "Navarrete - Conoza Wedding" },
         { property: "og:type", content: "website" },
-        { property: "og:image”", content: "https://www.jmandvanny.com/card.jpg" },
+        {
+          property: "og:image”",
+          content: "https://www.jmandvanny.com/card.jpg",
+        },
         { name: "twitter:title", content: "Navarrete - Conoza Wedding" },
         { name: "twitter:description", content: "A letter to our guests" },
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:image”", content: "https://www.jmandvanny.com/card.jpg" },
+        {
+          name: "twitter:image”",
+          content: "https://www.jmandvanny.com/card.jpg",
+        },
       ],
     };
   },

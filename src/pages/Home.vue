@@ -118,6 +118,30 @@
               control.
             </span>
           </div>
+
+          <div class="flex items-center justify-center pt-2 pb-6">
+            <router-link to="/letter">
+              <button
+                class="
+                  text-xs
+                  bg-transparent
+                  hover:bg-theme-200
+                  text-theme-200
+                  font-body
+                  hover:text-theme-50
+                  py-2
+                  px-4
+                  border border-blue-500
+                  hover:border-transparent
+                  rounded
+                  uppercase
+                "
+              >
+                Read our letter here
+              </button>
+            </router-link>
+          </div>
+
           <div class="flex items-center justify-center pt-2 pb-6">
             <span
               class="
