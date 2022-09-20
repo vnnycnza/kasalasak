@@ -23,18 +23,18 @@
         </li>
         <li>
           <router-link
-            to="/event"
+            to="/wedding"
             @click.native="toggleNavbar()"
             class="block py-2 hover:text-theme-300"
-            >event</router-link
+            >wedding</router-link
           >
         </li>
         <li>
           <router-link
-            to="/rsvp"
+            to="/event"
             @click.native="toggleNavbar()"
             class="block py-2 hover:text-theme-300"
-            >rsvp</router-link
+            >event</router-link
           >
         </li>
         <li>
@@ -51,6 +51,14 @@
             @click.native="toggleNavbar()"
             class="block py-2 hover:text-theme-300"
             >our story</router-link
+          >
+        </li>
+        <li>
+          <router-link
+            to="/contact"
+            @click.native="toggleNavbar()"
+            class="block py-2 hover:text-theme-300"
+            >contact us</router-link
           >
         </li>
       </ul>

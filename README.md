@@ -44,3 +44,4 @@ I'm not well-versed in frontend development so I had tons of help from different
 6. [Tailwind Components](https://tailwindcomponents.com/) for the various components I've checked and also maybe copied and modified.
     - The one I used in Story Page is based on this particular [one](https://tailwindcomponents.com/component/simple-vertical-timeline).
 7. [TinyPNG](https://tinypng.com/) for compressing assets.
+8. [Moment Precise Range](https://codebox.net/pages/moment-date-range-plugin) for calculating date duration.

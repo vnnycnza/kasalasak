@@ -62,17 +62,17 @@
             <router-link to="/" class="py-4 px-2 hover:text-white"
               >home</router-link
             >
-            <router-link to="/event" class="py-4 px-2 hover:text-white"
-              >event</router-link
-            >
-            <router-link to="/rsvp" class="py-4 px-2 hover:text-white"
-              >rsvp</router-link
+            <router-link to="/wedding" class="py-4 px-2 hover:text-white"
+              >wedding</router-link
             >
             <router-link to="/gallery" class="py-4 px-2 hover:text-white"
               >gallery</router-link
             >
             <router-link to="/story" class="py-4 px-2 hover:text-white"
               >our story</router-link
+            >
+            <router-link to="/contact" class="py-4 px-2 hover:text-white"
+              >contact</router-link
             >
           </div>
           <!-- Mobile menu button -->

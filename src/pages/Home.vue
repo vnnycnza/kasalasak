@@ -9,6 +9,7 @@
     <section id="countdown" class="py-4">
       <div class="container mx-auto my-auto items-center justify-center">
         <div class="mx-4 my-4">
+          <!-- Icon -->
           <div class="flex items-center justify-center py-4 mt-4">
             <svg
               id="calendar"
@@ -66,6 +67,7 @@
               </g>
             </svg>
           </div>
+          <!-- Caption -->
           <div class="flex items-center justify-center">
             <span
               class="
@@ -76,7 +78,28 @@
                 font-caveat
               "
             >
-              We're getting married! &nbsp;&#x1F973;
+              We got married! &nbsp;&#x1F973;
+            </span>
+          </div>
+          <div class="flex items-center justify-center pt-2 pb-6">
+            <span
+              class="
+                flex
+                mx-8
+                px-4
+                mx-auto
+                text-base
+                tracking-tight
+                text-gray-600
+                font-body
+                text-center
+                w-full
+                max-w-lg
+              "
+            >
+              We had an intimate wedding last January 26, 2022 and we celebrated
+              our marriage with more family and friends last August 27, 2022.
+              Indeed, God is so faithful!
             </span>
           </div>
           <div class="flex items-center justify-center pt-2 pb-6">
@@ -92,38 +115,17 @@
                 italic
               "
             >
-              . . . . . or we already did if you're reading this after Jan 26,
-              2022.
+              By God's grace, we've been enjoying married life for . . .
             </span>
           </div>
-          <div class="flex items-center justify-center pt-2 pb-6">
-            <span
-              class="
-                flex
-                mx-8
-                px-4
-                mx-auto
-                text-base
-                tracking-tight
-                text-gray-600
-                font-body
-                text-center
-                w-full
-                max-w-lg
-              "
-            >
-              We had to move our original wedding date because of difficult
-              situations, one of it is both of us being positive with COVID-19.
-              It was unfortunate but God is always faithful and He is in
-              control.
-            </span>
-          </div>
-
-          <div class="flex items-center justify-center pt-2 pb-6">
-            <router-link to="/letter">
+          <Timer />
+          <!-- View our wedding -->
+          <div class="flex items-center justify-center pt-2">
+            <router-link to="/wedding">
               <button
                 class="
                   text-xs
+                  xl:text-base
                   bg-transparent
                   hover:bg-theme-200
                   text-theme-200
@@ -137,263 +139,9 @@
                   uppercase
                 "
               >
-                Read our letter here
+                View our wedding
               </button>
             </router-link>
-          </div>
-
-          <div class="flex items-center justify-center pt-2 pb-6">
-            <span
-              class="
-                flex
-                mx-8
-                px-4
-                mx-auto
-                text-base
-                tracking-tight
-                text-gray-600
-                font-body
-                text-center
-                w-full
-                max-w-lg
-              "
-            >
-              The party is still on! Join us celebrate our marriage on August
-              27, 2022. That's in about . . .
-            </span>
-          </div>
-          <Timer />
-          <div class="flex items-center justify-center py-4 px-2">
-            <div class="flex flex-wrap -mx-2 overflow-hidden mx-auto">
-              <div
-                class="my-2 px-6 w-full sm:w-1/2 md:w-full lg:w-1/2 xl:w-1/2"
-              >
-                <div class="flex space-x-4">
-                  <div class="w-12">
-                    <svg
-                      id="Layer_1"
-                      enable-background="new 0 0 512.041 512.041"
-                      height="50"
-                      viewBox="0 0 512.041 512.041"
-                      width="50"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g>
-                        <path
-                          d="m496.02 512.025c-1.292 0-2.594-.157-3.88-.478l-123.844-30.961-107.88 30.823c-2.873.821-5.918.821-8.791 0l-107.88-30.823-123.844 30.961c-5.63 1.408-11.585-.345-15.554-4.581-3.97-4.236-5.334-10.289-3.565-15.818l64-200c1.688-5.275 5.985-9.303 11.359-10.646l86.86-21.71c1.269-.317 2.572-.478 3.88-.478h178.28c1.308 0 2.611.16 3.88.478l86.86 21.71c5.374 1.343 9.671 5.371 11.359 10.646l64 200c1.77 5.529.405 11.583-3.565 15.818-3.064 3.268-7.309 5.059-11.675 5.059z"
-                          fill="#acebe2"
-                        />
-                        <g fill="#98d7ce">
-                          <path
-                            d="m272.021 376.024v132.07c-18.576 5.291-13.623 5.234-32 0v-132.07c0-8.84 7.16-16 16-16s16 7.16 16 16z"
-                          />
-                          <path
-                            d="m194.521 258.314c-6.73 40.35-35.85 215.19-37.66 226.02l-13.12-3.75-19.52 4.88c28.96-173.77 35.47-212.87 37.73-226.39 4.14-.97 3.84-.76 4.93-.76z"
-                          />
-                          <path
-                            d="m387.811 485.464-19.51-4.88-13.11 3.75c-28-168.01-34.81-208.86-37.68-226.06 32.86.01 29.92.11 31.53.52.32.08.67.17 1.04.26 3.31 19.86 11.24 67.45 37.73 226.41z"
-                          />
-                          <path
-                            d="m403.091 272.304c-29.187 51.008-76.649 105.51-115.29 139.7-18.296 16.116-45.477 15.924-63.53.03-39.974-35.403-86.619-89.571-115.32-139.73 1.632-.408 52.408-13.103 54.05-13.51 2.817-.71-8.634-.48 182.16-.48 2.799 0-.867-.706 57.93 13.99z"
-                          />
-                        </g>
-                        <path
-                          d="m408.021 152.024c0 109.96-135.64 230.9-141.41 236-6.009 5.295-15.084 5.372-21.18 0-5.77-5.1-141.41-126.04-141.41-236 0-83.81 68.19-152 152-152s152 68.19 152 152z"
-                          fill="#f79caf"
-                        />
-                        <path
-                          d="m408.021 152.024c0 109.96-135.64 230.9-141.41 236-3.03 2.67-6.81 4-10.59 4-7.231 0-10.731-4.038-16-8.93 26.26-24.37 136-132.16 136-231.07 0-78.41-59.68-143.14-136-151.16 89.5-9.528 168 60.951 168 151.16z"
-                          fill="#e3889b"
-                        />
-                        <circle
-                          cx="256.021"
-                          cy="152.024"
-                          fill="#e2e0e0"
-                          r="88"
-                        />
-                        <path
-                          d="m344.021 152.024c0 54.991-50.071 96.516-104 86.54 40.91-7.54 72-43.48 72-86.54s-31.09-79-72-86.54c53.855-9.961 104 31.48 104 86.54z"
-                          fill="#cecccc"
-                        />
-                        <path
-                          d=""
-                          style="
-                            fill: none;
-                            stroke: #000;
-                            stroke-width: 32;
-                            stroke-linecap: round;
-                            stroke-linejoin: round;
-                            stroke-miterlimit: 10;
-                          "
-                        />
-                        <path
-                          d=""
-                          style="
-                            fill: none;
-                            stroke: #000;
-                            stroke-width: 32;
-                            stroke-linecap: round;
-                            stroke-linejoin: round;
-                            stroke-miterlimit: 10;
-                          "
-                        />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="flex-1 space-y-1">
-                    <a
-                      href="https://www.instagram.com/theemeraldeventsplace/"
-                      class="flex text-lg text-left text-blue-800 font-body"
-                      target="_blank"
-                    >
-                      The Emerald Events Place
-                    </a>
-                    <div class="flex text-xs text-gray-700 font-body">
-                      Cabrera Rd, Antipolo, Rizal
-                    </div>
-                    <div class="flex text-xs text-gray-700 font-body">
-                      <a
-                        class="focus:underline hover:text-theme-300"
-                        target="_blank"
-                        href="https://www.waze.com/en/live-map/directions/the-emerald-events-place-marigman-rd-1-antipolo?place=w.79429778.794035633.18752926"
-                      >
-                        Waze |
-                      </a>
-                      <a
-                        class="focus:underline hover:text-theme-300"
-                        target="_blank"
-                        href="https://g.page/Emeraldeventsplace?share"
-                      >
-                        &nbsp; Google
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="my-2 px-6 w-full sm:w-1/2 md:w-full lg:w-1/2 xl:w-1/2"
-              >
-                <div class="flex space-x-4">
-                  <div class="w-12">
-                    <svg
-                      id="reception"
-                      enable-background="new 0 0 512.102 512.102"
-                      height="50"
-                      viewBox="0 0 512.102 512.102"
-                      width="50"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g>
-                        <path
-                          d="m256.051 208.102c-8.836 0-16-7.164-16-16v-40c0-8.836 7.164-16 16-16s16 7.164 16 16v40c0 8.837-7.163 16-16 16z"
-                          fill="#cecccc"
-                        />
-                        <path
-                          d="m416.051 192.102v152c0 8.84-7.16 16-16 16h-288c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h288c8.84 0 16 7.16 16 16z"
-                          fill="#e2e0e0"
-                        />
-                        <path
-                          d="m416.051 304.102v40c0 8.84-7.16 16-16 16h-288c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h32v8c0 66.27 53.73 120 120 120z"
-                          fill="#cecccc"
-                        />
-                        <path
-                          d="m464.051 344.102v152c0 8.84-7.16 16-16 16h-384c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h384c8.84 0 16 7.16 16 16z"
-                          fill="#e2e0e0"
-                        />
-                        <path
-                          d="m464.051 472.102v24c0 8.84-7.16 16-16 16h-384c-8.84 0-16-7.16-16-16v-152c0-8.84 7.16-16 16-16h24v4c0 77.32 62.68 140 140 140z"
-                          fill="#cecccc"
-                        />
-                        <path
-                          d="m400.051 176.102c-8.836 0-16 7.164-16 16 0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 20.534 6.129 40.016 17.259 54.855 25.409 33.879 69.685 33.687 94.741-1.76 25.308 35.803 70.627 35.89 96 0 25.035 35.411 69.302 35.679 94.741 1.76 11.129-14.839 17.259-34.321 17.259-54.855 0-8.836-7.163-16-16-16z"
-                          fill="#f79caf"
-                        />
-                        <path
-                          d="m448.051 328.102c-8.836 0-16 7.164-16 16 0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 26.019-14.654 48-32 48s-32-21.981-32-48c0-8.836-7.164-16-16-16s-16 7.164-16 16c0 20.534 6.129 40.016 17.259 54.855 25.415 33.887 69.687 33.676 94.741-1.76 25.316 35.807 70.628 35.885 96 0 25.327 35.817 70.626 35.883 96 0 25.039 35.409 69.301 35.681 94.741 1.76 11.129-14.839 17.259-34.321 17.259-54.855 0-8.836-7.163-16-16-16z"
-                          fill="#f79caf"
-                        />
-                        <path
-                          d="m496.051 512.102h-480c-8.836 0-16-7.164-16-16s7.164-16 16-16h480c8.836 0 16 7.164 16 16s-7.163 16-16 16z"
-                          fill="#a18b76"
-                        />
-                        <path
-                          d="m355.501 62.462c0 13.87-4 26.48-10.35 37.75-23.7 42.05-80.06 65.48-83.06 66.71-3.771 1.536-8.125 1.61-12.08 0-3.81-1.56-93.41-38.82-93.41-104.46 0-50.068 57.442-80.108 99.45-51.13 41.388-28.55 99.45.455 99.45 51.13z"
-                          fill="#f79caf"
-                        />
-                        <path
-                          d="m344.161 101.922c-24.24 40.97-79.11 63.79-82.07 65-3.77 1.54-8.13 1.61-12.08 0-3.81-1.56-93.41-38.82-93.41-104.46 0-24.21 13.43-43.74 32.05-54.17-2.6 6.78-4.05 14.22-4.05 22.17 0 65.64 89.6 102.9 93.41 104.46 3.95 1.61 8.31 1.54 12.08 0 2.07-.85 29.47-12.24 54.07-33z"
-                          fill="#e3889b"
-                        />
-                      </g>
-                    </svg>
-                  </div>
-                  <div class="flex-1 space-y-1">
-                    <div class="text-lg text-left text-blue-800 font-body">
-                      Wedding Details
-                    </div>
-                    <div class="text-xs text-gray-700 font-body">
-                      Ceremony at 3pm • Reception follows
-                    </div>
-                    <div class="text-xs text-gray-700 font-body"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="flex items-center justify-center py-2">
-            <div
-              class="flex flex-wrap -mx-2 overflow-hidden mx-auto text-center"
-            >
-              <div class="my-2 px-6 w-3/4 mx-auto">
-                <router-link to="/event">
-                  <button
-                    class="
-                      text-xs
-                      xl:text-base
-                      bg-transparent
-                      hover:bg-theme-200
-                      text-theme-200
-                      font-body
-                      hover:text-theme-50
-                      py-2
-                      px-4
-                      border border-blue-500
-                      hover:border-transparent
-                      rounded
-                      uppercase
-                      justify-center
-                      w-full
-                    "
-                  >
-                    View Full Details
-                  </button>
-                </router-link>
-              </div>
-              <div class="my-2 px-6 w-full">
-                <router-link to="/rsvp">
-                  <button
-                    class="
-                      text-xs
-                      xl:text-base
-                      bg-transparent
-                      hover:bg-theme-200
-                      text-theme-200
-                      font-body
-                      hover:text-theme-50
-                      py-2
-                      px-4
-                      border border-blue-500
-                      hover:border-transparent
-                      rounded
-                      uppercase
-                    "
-                  >
-                    RSVP Here
-                  </button>
-                </router-link>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -545,7 +293,7 @@
           </div>
 
           <!-- Link to Gallery -->
-          <div class="flex items-center justify-center mb-6">
+          <div class="flex items-center justify-center mb-2">
             <router-link to="/gallery">
               <button
                 class="
@@ -572,7 +320,7 @@
       </div>
     </section>
 
-    <section id="message-us" class="pt-6 pb-2">
+    <section id="message-us" class="pt-2 pb-2">
       <div class="container mx-auto my-auto items-center justify-center">
         <div class="mx-4">
           <!-- Icon -->
@@ -622,7 +370,7 @@
             <div class="my-3 px-6 py-4 w-full overflow-hidden">
               <div class="flex-1 space-y-1">
                 <div class="text-2xl md:text-3xl text-gray-700 font-caveat">
-                  Drop us a message
+                  Send us a message
                 </div>
                 <div
                   class="
@@ -633,16 +381,16 @@
                   "
                 >
                   <div class="flex w-1/2 mx-auto items-center">
-                    While we really want to celebrate our union with everyone
-                    dear, the current situation limits us to do so. Express your
-                    intent to attend by leaving us a message. Or, you can just
-                    drop a message regardless. &#x1F92A;
+                    Surely, we're gonna face a lot of challenges along the way
+                    and also celebrate a lot of milestones too. Keep in touch
+                    with us, leave us an advice or just drop a message
+                    regardless. &#x1F92A;
                   </div>
                 </div>
 
-                <!-- Link to Rsvp -->
+                <!-- Link to Contact -->
                 <div class="flex items-center justify-center py-4 mt-6">
-                  <router-link to="/rsvp">
+                  <router-link to="/contact">
                     <button
                       class="
                         text-xs
@@ -696,12 +444,12 @@ export default {
     return {
       content: [
         {
-          images: ["story/groom01.png"],
+          images: ["story/profilev1/groom01.png"],
           title: "The Groom",
           desc: "JM is a born rockstar. He knows how to play all sorts of instruments but he's the best at drums and guitar. &#x1F941; &#x1F3B8; Oh, and he sings well too. When God showered talents, he probably had a suitcase while everyone else only got a plastic bag. &#128514; He loves playing video games when no one else is awake, and spends most of his free time watching basketball highlights. &#x1F3C0; He's also a passionate Instructional Design Specialist. That's his job title but I'm honestly not sure what that means, I just know he is passionate about it. &#x1F525;",
         },
         {
-          images: ["story/bride01.png"],
+          images: ["story/profilev1/bride01.png"],
           title: "The Bride",
           desc: "Vanny is a software engineer by profession, backed with years of experience, but still copies code from Stack Overflow. &#x1F605; Don't be fooled by her height, she's one strong, independent woman. She's analytical and logical when it comes to her decision making, always taking calculated measures. &#x1F4C8; She probably drafted a flowchart in her mind when I asked her to marry me. &#128514; You'd catch her re-watching Friends, Brooklyn 99, or Hospital Playlist in between watching Hell's Kitchen or Masterchef. &#x1F4FA;",
         },

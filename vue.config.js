@@ -11,7 +11,8 @@ module.exports = {
           routes: [
             "/",
             "/event",
-            "/rsvp",
+            "/contact",
+            "/wedding",
             "/story",
             "/gallery",
             "/virtual",

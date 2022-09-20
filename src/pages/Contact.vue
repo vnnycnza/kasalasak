@@ -1,8 +1,8 @@
 <template>
-  <div class="rsvp">
+  <div class="contact">
     <div
       v-bind:class="{ hidden: showMenu }"
-      id="rsvp"
+      id="contact"
       class="container mx-auto my-auto items-center justify-center"
     >
       <div class="flex items-center justify-center py-4 mt-8">
@@ -62,52 +62,22 @@
             font-caveat
           "
         >
-          RSVP
+          Contact Us
         </span>
       </div>
 
-      <div class="flex items-center justify-center pb-6 mt-6 mx-6">
+      <div class="flex items-center justify-center py-2">
         <span
           class="
-            flex
             mx-6
-            px-4
-            mx-auto
-            text-base
+            text-lg
             tracking-tight
-            text-gray-600
+            text-gray-700
             font-body
             text-center
-            w-full
-            max-w-lg
           "
         >
-          As much as we want everyone to be able to celebrate in person, we do
-          ask that if you are feeling ill, receive a positive COVID-19 test, or
-          have been exposed to COVID-19 at least 2 weeks before the wedding,
-          please stay home and focus on your health. You can still celebrate
-          with us virtually. &#x1F609;
-        </span>
-      </div>
-
-      <div class="flex items-center justify-center pb-6 mt-2 mx-6">
-        <span
-          class="
-            flex
-            mx-6
-            px-4
-            mx-auto
-            text-base
-            tracking-tight
-            text-gray-600
-            font-body
-            text-center
-            w-full
-            max-w-lg
-          "
-        >
-          Let us know if you can make it by answering the form or you can also
-          contact Kam Tolentino at +63 917 815 3887. &#x1F499;
+          Thoughts? Leave us a message &#x1F602;
         </span>
       </div>
 
@@ -116,66 +86,18 @@
         class="flex items-center justify-center pb-6 mt-8 mx-6"
       >
         <form
-          name="rsvp"
+          name="contact-us"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           class="w-full max-w-lg"
         >
-          <input type="hidden" name="form-name" value="rsvp" />
+          <input type="hidden" name="form-name" value="contact-us" />
           <input
             type="hidden"
             name="subject"
-            value="RSVP to Navarrete-Conoza Wedding"
+            value="Message from www.jmandvanny.com"
           />
-          <div class="flex flex-wrap -mx-3 mb-6">
-            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <label
-                class="
-                  block
-                  uppercase
-                  tracking-wide
-                  text-gray-700 text-xs
-                  font-body
-                  mb-2
-                "
-                for="grid-first-name"
-              >
-                Attending?
-              </label>
-              <div>
-                <label class="inline-flex items-center">
-                  <input
-                    type="radio"
-                    class="form-radio"
-                    name="attendance"
-                    value="Yes"
-                  />
-                  <span class="ml-2 text-gray-700 text-xs uppercase">Yes</span>
-                </label>
-                <label class="inline-flex items-center ml-6">
-                  <input
-                    type="radio"
-                    class="form-radio"
-                    name="attendance"
-                    value="No"
-                  />
-                  <span class="ml-2 text-gray-700 text-xs uppercase">No</span>
-                </label>
-                <label class="inline-flex items-center ml-6">
-                  <input
-                    type="radio"
-                    class="form-radio"
-                    name="attendance"
-                    value="online"
-                  />
-                  <span class="ml-2 text-gray-700 text-xs uppercase"
-                    >Online</span
-                  >
-                </label>
-              </div>
-            </div>
-          </div>
           <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full px-3">
               <label
@@ -262,10 +184,6 @@
               >
                 Email
               </label>
-              <span class="text-sm tracking-tight text-gray-600 font-body mb-2">
-                Please provide your email or Facebook profile if attending
-                online.
-              </span>
               <input
                 class="
                   appearance-none
@@ -302,9 +220,6 @@
               >
                 Message
               </label>
-              <span class="text-sm tracking-tight text-gray-600 font-body mb-2">
-                Indicate here if confirming for more than one person.
-              </span>
               <textarea
                 class="
                   no-resize
@@ -359,7 +274,7 @@
 import { mapGetters } from "vuex";
 
 export default {
-  name: "Rsvp",
+  name: "Contact",
   components: {},
   computed: {
     ...mapGetters({
@@ -378,7 +293,7 @@ export default {
 </script>
 
 <style scoped>
-.rsvp {
+.contact {
   padding-bottom: 144px;
 }
 </style>

@@ -7,11 +7,12 @@ import VueEllipseProgress from "vue-ellipse-progress";
 import App from "./App.vue";
 import Home from "./pages/Home.vue";
 import Event from "./pages/Event.vue";
-import Rsvp from "./pages/Rsvp.vue";
+import Contact from "./pages/Contact.vue";
 import Story from "./pages/Story.vue";
 import Gallery from "./pages/Gallery.vue";
 import Letter from "./pages/Letter.vue";
 import Virtual from "./pages/Virtual.vue";
+import Wedding from "./pages/Wedding.vue";
 
 import "./assets/styles/index.css";
 
@@ -30,8 +31,8 @@ const routes = [
     component: Event,
   },
   {
-    path: "/rsvp",
-    component: Rsvp,
+    path: "/contact",
+    component: Contact,
   },
   {
     path: "/story",
@@ -48,6 +49,10 @@ const routes = [
   {
     path: "/letter",
     component: Letter,
+  },
+  {
+    path: "/wedding",
+    component: Wedding,
   },
 ];
 
